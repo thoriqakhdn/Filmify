@@ -1,4 +1,4 @@
-@include('HeaderHome')
+@extends('HeaderHome')
 @section('container')
 
 <link rel="stylesheet" href="css/profile.css">
@@ -95,7 +95,5 @@
 
 
 </section>
-
-
-
 @include('Footer')
+@endsection

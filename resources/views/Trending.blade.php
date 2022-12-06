@@ -1,6 +1,9 @@
-@include('HeaderHome')
+@extends('HeaderHome')
 @section('container')
+
+<link rel="stylesheet" href="css/trending.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
 <div class="container">
     <h1>FILM TERATAS</h1>
     <div class="cards">
@@ -191,11 +194,10 @@
         <div class="swiper-button-prev swiper-navBtn"></div>
         <div class="swiper-pagination"></div>
     </div>
+</div>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="/js/trending.js"></script>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-    <script src="/js/trending.js"></script>
-
-    @include('Footer')
+@include('Footer')
+@endsection

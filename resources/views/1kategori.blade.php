@@ -1,4 +1,4 @@
-@include('HeaderHome')
+@extends('HeaderHome')
 @section('container')
 <div class="album py-5">
     <div class="container">
@@ -24,5 +24,5 @@
 
 
 <a href="/Kategori">Kembali ke kategori</a>
-
 @include('Footer')
+@endsection
