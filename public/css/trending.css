@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0 8%;
+    background-color: #dec584;
+}
+
+.container h1 {
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+}
+
+.container h1::after {
+    content: '';
+    background: black;
+    width: 236px;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.card {
+    background-color: #fff;
+    width: 90%;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1)
+}
+
+.card-img {
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-img-hover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+    transition: 0.2s all ease-out;
+}
+
+.card-img-logo {
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10%;
+    position: absolute;
+    height: 5%;
+
+}
+
+.card-info h6 {
+    position: relative;
+    padding: 5px;
+    left: 11%;
+}
+
+.card:hover .card-img-hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1, 1.1);
+}
+
+.card-info {
+    z-index: 2;
+    background-color: #fff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+}
+
+.card-category {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-style: 500;
+    color: #868686;
+}
+
+.card-title {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.card-by {
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.card-genre {
+    font-weight: 600;
+    text-decoration: none;
+    color: #ad7d52;
+}
+
+
+@media screen and (max-width: 700px) {
+    .card {
+        width: 20em;
+        display: block;
+        margin: 1em;
+    }
+}
+
+
+
+
+.slide-content {
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.video-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 7px;
+}
+
+.video-content {
+    position: relative;
+    row-gap: 2px;
+}
+
+.video-image {
+    margin-top: 10px;
+    border-radius: 50%;
+    padding: 3px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.video {
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+body {
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #333;
+}
+
+.overlay {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 25px 25px 0 25px;
+}
+
+.swiper-navBtn {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+    color: black;
+}
+
+.swiper-navBtn::after
+.swiper-navBtn::before {
+    font-size: 10px;
+}
+
+.swiper-button-next {
+    margin-left: 20px;
+    right: 0;
+}
+
+.swiper-button-prev {
+    left:0;
+}
+
+.swiper-pagination.bullet {
+    background-color: black;
+    opacity: 1;
+}
+
+.swiper-pagination.bullet-active {
+    background-color: black;
+}
+
+@media screen and (max-width:768px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .swiper-navBtn {
+        display: none;
+    }
+}
