@@ -11,7 +11,7 @@ class kategori extends Model
     use HasFactory;
     protected $guarded = ['id'];
 
-    public function post()
+    public function movies()
     {
         return $this->hasMany(Movies::class);
     }

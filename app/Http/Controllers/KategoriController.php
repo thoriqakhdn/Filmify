@@ -17,13 +17,14 @@ class KategoriController extends Controller
         ]);
     }
 
-    public function show($kategori)
-    {
-        $allfilms = Movies::where('slug', $kategori)->get();
-        @dd($allfilms);
-        return view('1kategori', [
-            "title" => "Kategori",
-            "films" => $allfilms
-        ]);
-    }
+    // public function show($kategori)
+    // {
+    //     $allfilms = Movies::where('kategori', $kategori)->get();
+    //     @dd($allfilms);
+    //     return view('1kategori', [
+    //         'title' => "Kategori",
+    //         'films' => $kategori->movies,
+    //         'kategori'
+    //     ]);
+    // }
 }

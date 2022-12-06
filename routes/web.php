@@ -62,7 +62,13 @@ Route::get('/Trending', function () {
 });
 
 Route::get('/Kategori', [KategoriController::class, 'index']);
-Route::get('/Kategori/{kategori:slug}', [KategoriController::class, 'show']);
+Route::get('/Kategori/{kategori:slug}', function (kategori $kategori) {
+    return view('1kategori', [
+        'title' => "Kategori",
+        'films' => $kategori->movies,
+        'kategori' =>  $kategori->name
+    ]);
+});
 
 Route::get('/Koleksi', function () {
     return view('Koleksi', [
