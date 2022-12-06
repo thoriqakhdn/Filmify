@@ -1,0 +1,41 @@
+
+[
+    "title" => "Smile",
+    "kategori" => "Horror",
+    "slug" => "smile"
+],
+[
+    "title" => "The Medium",
+    "kategori" => "Horror",
+    "slug" => "the-medium"
+],
+[
+    "title" => "Stranger Things",
+    "kategori" => "Horror",
+    "slug" => "stranger-things"
+],
+[
+    "title" => "Reconjuring",
+    "kategori" => "Horror",
+    "slug" => "reconjuring"
+],
+[
+    "title" => "Batman",
+    "kategori" => "Action",
+    "slug" => "batman"
+],
+[
+    "title" => "Spiderman: into the spiderverse",
+    "kategori" => "Action",
+    "slug" => "spiderman-into-the-spiderverse"
+]
+
+Movies::create([
+    'title' => 'Spiderman: into the spiderverse',
+    'kategori' => 'Action',
+    'body' => 'Digigit laba-laba radioaktif di kereta bawah tanah, remaja Brooklyn Miles Morales tiba-tiba mengembangkan kekuatan misterius yang mengubahnya menjadi satu-satunya Spider-Man. Ketika dia bertemu Peter Parker, dia segera menyadari bahwa ada banyak orang lain yang memiliki bakat istimewa dan terbang tinggi yang sama dengannya. Miles sekarang harus menggunakan keterampilan barunya untuk melawan Kingpin yang jahat, orang gila raksasa yang dapat membuka portal ke alam semesta lain dan menarik berbagai versi Spider-Man ke dunia kita.',
+    'slug' => 'spiderman-into-the-spiderverse',
+    'rating' => 4.8 ,
+    'upvote' => 0,
+    'excerpt' => 'Digigit laba-laba radioaktif di kereta bawah tanah, remaja Brooklyn Miles Morales tiba-tiba mengembangkan kekuatan misterius yang mengubahnya menjadi satu-satunya Spider-Man.'
+]);

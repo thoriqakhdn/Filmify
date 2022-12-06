@@ -1,0 +1,86 @@
+body {
+    background-image: url("../image/Asset3.png");
+    background-color: #e0a370;
+    max-height: 100%;
+    font-family: 'Maitree', light;
+}
+  
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 3rem;
+}
+
+.nav-link {
+  color: black;
+  font-size: 2.5rem;
+  font-family: 'Maitree', light;
+}
+
+.nav-link.active{
+  color: black;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+h1{
+    text-align: left;
+    margin: 2em 3em;
+    margin-bottom: 1em;
+    font-size: 60px;
+    font-family: 'Maitree';
+    font-weight: semibold;
+}
+
+.kolom-kiri p{
+    text-align: left;
+    margin-left: 5.6em;
+    font-size: 32px;
+    font-family: 'Maitree';
+    font-weight: light;
+}
+
+section.top{
+    display: grid;
+    margin: 0;
+    grid-template-columns: repeat(2, 50%); /*membuat 2 kolom berukuran 50%*/    
+    grid-template-areas: 
+        "text gambar" /*set tempat/posisi 2 kolom menjadi variable gambar dan text*/
+    ;
+}
+
+input[type=button]{
+    margin-top: 3em;
+    background-color: #a16b56;
+    border: none;
+    width: 10%;
+    height: 15%;
+    color: white;
+    font-weight: bold;
+    padding: 1em 0;
+    border-radius: 1em;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 11em;
+}
+
+input[type=button]:hover{
+    font-weight: normal;
+}
+
+.example img {
+    width: 100%;
+    position: relative;
+  }
+  
+  .example .overlay {
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 30px;
+  }

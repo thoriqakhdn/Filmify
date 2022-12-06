@@ -1,0 +1,51 @@
+body {
+    background-color: #6d4641;
+    background-image: url(../images/BgTentang.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Maitree', light;
+}
+
+main img{
+  max-width: 100%;
+  max-height:100%;
+  width: auto;
+  height: auto;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 3rem;
+}
+
+.nav-link {
+  color: black;
+  font-size: 2.5rem;
+  font-family: 'Maitree', light;
+}
+
+.nav-link.active{
+  color: black;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+
+.text{
+    color: #efd2af;
+    margin-top: 250px;
+}
+
+.text h1 {
+    font-size:  100px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.text p {
+    text-align: center;
+    font-size:  25px;
+    margin-left: 18em;
+    margin-right: 18em;
+
+}
