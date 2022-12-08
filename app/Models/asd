@@ -1,51 +1,690 @@
-// Movies::create([
-//     'title' => 'Spiderman: into the spiderverse',
-//     'kategori' => 'Action',
-//     'body' => 'Digigit laba-laba radioaktif di kereta bawah tanah, remaja Brooklyn Miles Morales tiba-tiba mengembangkan kekuatan misterius yang mengubahnya menjadi satu-satunya Spider-Man. Ketika dia bertemu Peter Parker, dia segera menyadari bahwa ada banyak orang lain yang memiliki bakat istimewa dan terbang tinggi yang sama dengannya. Miles sekarang harus menggunakan keterampilan barunya untuk melawan Kingpin yang jahat, orang gila raksasa yang dapat membuka portal ke alam semesta lain dan menarik berbagai versi Spider-Man ke dunia kita.',
-//     'slug' => 'spiderman-into-the-spiderverse',
-//     'rating' => 4.8 ,
-//     'upvote' => 0,
-//     'excerpt' => 'Digigit laba-laba radioaktif di kereta bawah tanah, remaja Brooklyn Miles Morales tiba-tiba mengembangkan kekuatan misterius yang mengubahnya menjadi satu-satunya Spider-Man.'
-// ]);
-
 Movies::create([
-    'title' => 'Spiderman: into the spiderverse',
-    'kategori_id' => '1',
-    'body' => 'Digigit laba-laba radioaktif di kereta bawah tanah, remaja Brooklyn Miles Morales tiba-tiba mengembangkan kekuatan misterius yang mengubahnya menjadi satu-satunya Spider-Man. Ketika dia bertemu Peter Parker, dia segera menyadari bahwa ada banyak orang lain yang memiliki bakat istimewa dan terbang tinggi yang sama dengannya. Miles sekarang harus menggunakan keterampilan barunya untuk melawan Kingpin yang jahat, orang gila raksasa yang dapat membuka portal ke alam semesta lain dan menarik berbagai versi Spider-Man ke dunia kita.',
-    'slug' => 'spiderman-into-the-spiderverse',
-    'rating' => 4.8,
-    'upvote' => 0,
-    'excerpt' => 'Digigit laba-laba radioaktif di kereta bawah tanah, remaja Brooklyn Miles Morales tiba-tiba mengembangkan kekuatan misterius yang mengubahnya menjadi satu-satunya Spider-Man.'
+'title' => 'Spiderman: into the spiderverse',
+'kategori_id' => '1',
+'body' => 'Digigit laba-laba radioaktif di kereta bawah tanah, remaja Brooklyn Miles Morales tiba-tiba mengembangkan kekuatan misterius yang mengubahnya menjadi satu-satunya Spider-Man. Ketika dia bertemu Peter Parker, dia segera menyadari bahwa ada banyak orang lain yang memiliki bakat istimewa dan terbang tinggi yang sama dengannya. Miles sekarang harus menggunakan keterampilan barunya untuk melawan Kingpin yang jahat, orang gila raksasa yang dapat membuka portal ke alam semesta lain dan menarik berbagai versi Spider-Man ke dunia kita.',
+'slug' => 'spiderman-into-the-spiderverse',
+'rating' => 4.8,
+'upvote' => 0,
+'excerpt' => 'Digigit laba-laba radioaktif di kereta bawah tanah, remaja Brooklyn Miles Morales tiba-tiba mengembangkan kekuatan misterius yang mengubahnya menjadi satu-satunya Spider-Man.'
 ]);
 
 Movies::create([
-    'title' => 'Smile',
-    'kategori_id' => '2',
-    'body' => 'Digigit laba-laba radioaktif di kereta bawah tanah, remaja Brooklyn Miles Morales tiba-tiba mengembangkan kekuatan misterius yang mengubahnya menjadi satu-satunya Spider-Man. Ketika dia bertemu Peter Parker, dia segera menyadari bahwa ada banyak orang lain yang memiliki bakat istimewa dan terbang tinggi yang sama dengannya. Miles sekarang harus menggunakan keterampilan barunya untuk melawan Kingpin yang jahat, orang gila raksasa yang dapat membuka portal ke alam semesta lain dan menarik berbagai versi Spider-Man ke dunia kita.',
-    'slug' => 'smile',
-    'rating' => 4.2,
-    'upvote' => 0,
-    'excerpt' => 'Digigit laba-laba radioaktif di kereta bawah tanah, remaja Brooklyn Miles Morales tiba-tiba mengembangkan kekuatan misterius yang mengubahnya menjadi satu-satunya Spider-Man.'
+'title' => 'Black Adam',
+'kategori_id' => '1',
+'body' => 'Black Adam mendapat kekuatan supernya melalui pemberian Dewa Mesir kuno. Kekuatan yang didapat ditujukan untuk menegakkan keadilan, namun hal itu disalahartikan olehnya. Diceritakan, Black Adam mempunyai seorang anak dan akibat suatu peristiwa, menyebabkan anaknya kemudian terbunuh.Hal ini membuat Black Adam murka dan menggunkan kekuatannya untuk membalas dendam atas tewasnya sang anak. Dianggap berbahaya, akhirnya Black Adam dikurung hingga ribuan tahun sampai kembali hadir di masa sekarang.',
+'slug' => 'black-adam',
+'rating' => 4.8,
+'upvote' => 0,
+'excerpt' => 'Berkisah tentang sosok antihero yang mendapatkan kekuatan dari dewa mesir bernama Adam. Ia datang untuk menciptakan keadilan di dunia saat ini.'
+]);
+
+Movies::create([
+'title' => 'Venom',
+'kategori_id' => '1',
+'body' => 'Seorang jurnalis, Eddie Brock (Tom Hardy) ingin melakukan sebuah investasi kasus terhadap penemuan yang dipimpin oleh Dr. Carlton Drake (Riz Ahmed). Karena investigasinya, Eddie mengunjungi lab milik Dr. Calrlton Drake. Semuanya ditujukan untuk membuktikan bahwa Dr. Carlton Drake sedang sedang melakukan tindakan jahat menggunakan Symbiote.',
+'slug' => 'venom',
+'rating' => 4.8,
+'upvote' => 0,
+'excerpt' => 'Seorang jurnalis, Eddie Brock (Tom Hardy) ingin melakukan sebuah investasi kasus terhadap penemuan yang dipimpin oleh Dr. Carlton Drake (Riz Ahmed). Karena investigasinya, Eddie mengunjungi lab milik Dr. Calrlton Drake.'
+]);
+
+Movies::create([
+'title' => 'Mission: Impossible - Fallout',
+'kategori_id' => '1',
+'body' => 'Ketika sebuah misi IMF berjalan di luar rencana, keselamatan dunia terancam. Ethan Hunt beraksi sendiri sesuai arahan awal, dan CIA mulai mempertanyakan loyalitas dan motifnya. Hunt harus berpacu melawan waktu, diburu para pembunuh dan mantan rekan misinya, untuk mencegah sebuah ancaman global.',
+'slug' => 'mission-impossible-fallout',
+'rating' => 4.8,
+'upvote' => 0,
+'excerpt' => 'Ketika sebuah misi IMF berjalan di luar rencana, keselamatan dunia terancam. Ethan Hunt beraksi sendiri sesuai arahan awal, dan CIA mulai mempertanyakan loyalitas dan motifnya.'
+]);
+
+Movies::create([
+'title' => 'Bumblebee',
+'kategori_id' => '1',
+'body' => 'Ketika sebuah misi IMF berjalan di luar rencana, keselamatan dunia terancam. Ethan Hunt beraksi sendiri sesuai arahan awal, dan CIA mulai mempertanyakan loyalitas dan motifnya. Hunt harus berpacu melawan waktu, diburu para pembunuh dan mantan rekan misinya, untuk mencegah sebuah ancaman global.',
+'slug' => 'bumblebee',
+'rating' => 4.8,
+'upvote' => 0,
+'excerpt' => 'Dalam pelarian di tahun 1987, Bumblebee menemukan perlindungan di tempat rongsokan di sebuah kota kecil pinggir pantai California. '
+]);
+
+Movies::create([
+'title' => 'Wonder Woman',
+'kategori_id' => '1',
+'body' => 'Putri Diana dari suku Amazon menyelamatkan pilot terdampar bernama Steve. Bersama sang pilot, Diana memulai petualangannya untuk menghentikan Ares yang ingin menghancurkan kehidupan umat manusia.',
+'slug' => 'wonder-woman',
+'rating' => 4.8,
+'upvote' => 0,
+'excerpt' => 'Putri Diana dari suku Amazon menyelamatkan pilot terdampar bernama Steve. Bersama sang pilot, Diana memulai petualangannya untuk menghentikan Ares.'
+]);
+
+Movies::create([
+'title' => 'Top Gun: Maverick',
+'kategori_id' => '1',
+'body' => 'Lebih dari 30 tahun mengabdi sebagai salah satu penerbang Angkatan Laut terbaik, Pete “Maverick” Mitchell berada dalam posisi dambaannya, melakukan aksi-aksi mendobrak sebagai pilot uji nan pemberani, dan menampik setiap kesempatan naik pangkat karena akan membuatnya tak bisa menerbangkan pesawatnya.',
+'slug' => 'top-gun-maveric',
+'rating' => 4.8,
+'upvote' => 0,
+'excerpt' => 'Lebih dari 30 tahun mengabdi sebagai salah satu penerbang Angkatan Laut terbaik, Pete “Maverick” Mitchell berada dalam posisi dambaannya, melakukan aksi-aksi mendobrak sebagai pilot uji nan pemberani'
+]);
+
+Movies::create([
+'title' => 'Red Notice',
+'kategori_id' => '1',
+'body' => 'John Hartley (Dwayne Johnson) berusaha dengan segala cara untuk menangkap pencuri barang-barang seni bernama Sarah Black (Gal Gadot). Suatu ketika, ia menyamar agar bisa menjebak Sarah. Alih-alih, misi yang dijalankan Hartley itu gagal total. Ia justru dijebak oleh Sarah agar terlihat seperti orang yang melakukan kejahatan hingga diberi status red notice.',
+'slug' => 'red-notice',
+'rating' => 4.8,
+'upvote' => 0,
+'excerpt' => 'John Hartley (Dwayne Johnson) berusaha dengan segala cara untuk menangkap pencuri barang-barang seni bernama Sarah Black (Gal Gadot). Suatu ketika, ia menyamar agar bisa menjebak Sarah. Alih-alih, misi yang dijalankan Hartley itu gagal total.'
 ]);
 
 
 
+
+Movies::create([
+'title' => 'Smile',
+'kategori_id' => '2',
+'body' => 'Setelah menyaksikan kejadian yang aneh yang melibatkan seorang pasien, Dr. Rose Cotter mulai mengalami kejadian menakutkan yang tidak bisa dia jelaskan. Rose harus menghadapi masa lalunya yang bermasalah, disamping itu Ia juga berusaha untuk bertahan hidup dan melarikan diri dari kenyataan baru yang mengerikan.',
+'slug' => 'smile',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Setelah menyaksikan kejadian yang aneh yang melibatkan seorang pasien, Dr. Rose Cotter mulai mengalami kejadian menakutkan yang tidak bisa dia jelaskan.'
+]);
+
+Movies::create([
+'title' => 'Get Out',
+'kategori_id' => '2',
+'body' => 'Chris, pria kulit hitam, mengunjungi orangtua kekasihnya kulit putihnya saat liburan akhir pekan. Meski keluarganya kelihatan wajar - rahasia mengerikan tersembunyi di balik dinding rumah mereka.',
+'slug' => 'get-out',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Chris, pria kulit hitam, mengunjungi orangtua kekasihnya kulit putihnya saat liburan akhir pekan.'
+]);
+
+Movies::create([
+'title' => 'Alive',
+'kategori_id' => '2',
+'body' => 'mengisahkan tentang Joon Woo (Yoo Ah In) yang merupakan seorang gamers. Saat kejadian penyebaran infeksi zombie terjadi, dirinya sedang berada di apartemen sendirian yang dimana orang tuanya sedang pergi. Hingga kemudian perlahan kekacauan mulai terjadi.',
+'slug' => 'alive',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'mengisahkan tentang Joon Woo (Yoo Ah In) yang merupakan seorang gamers. Saat kejadian penyebaran infeksi zombie terjadi, dirinya sedang berada di apartemen sendirian.'
+]);
+
+Movies::create([
+'title' => 'The Medium',
+'kategori_id' => '2',
+'body' => 'Saat tim dokumenter mengikuti Nim seorang dukun di daerah Isan - Thailand Utara mereka bertemu dengan keponakannya bernama Mink yang menunjukkan gejala aneh. Nampaknya Mink akan mewarisi bakat dukun dari keturunan keluarga mereka.',
+'slug' => 'the-medium',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Saat tim dokumenter mengikuti Nim seorang dukun di daerah Isan - Thailand Utara mereka bertemu dengan keponakannya bernama Mink yang menunjukkan gejala aneh.'
+]);
+
+Movies::create([
+'title' => 'A Quite Place',
+'kategori_id' => '2',
+'body' => 'A Quiet Place memperlihatkan bagaimana keluarga Abbott yang terjebak dalam sebuah kondisi mengerikan. Mereka menjalani hidup dalam keheningan untuk menghindari makhluk misterius yang berburu dengan suara.',
+'slug' => 'a-quiet-place',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Sebuah keluarga hidup dalam ketakutan. Mereka berusaha harus hidup dalam keheningan agar terhindar dari mahluk misterius.'
+]);
+
+Movies::create([
+'title' => 'Incantation',
+'kategori_id' => '2',
+'body' => 'Terinspirasi dari kejadian nyata di Taiwan pada tahun 2005, film Incantation bercerita tentang Li Ronan, seorang ibu yang berusaha melindungi anak perempuannya dari kutukan. Kutukan tersebut berasal dari Ronan yang pada 6 tahun lalu dikutuk akibat melanggar hal yang tabu terhadap suatu kepercayaan.',
+'slug' => 'incantation',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Terinspirasi dari kejadian nyata di Taiwan pada tahun 2005, film Incantation bercerita tentang Li Ronan, seorang ibu yang berusaha melindungi anak perempuannya dari kutukan.'
+]);
+
+Movies::create([
+'title' => 'The Invisible Man',
+'kategori_id' => '2',
+'body' => 'Cecilia Kass (Elisabeth Moss) tidak pernah percaya bahwa mantan kekasihnya yang tempramental bunuh diri dan meninggalkan warisan kepadanya. Cecilia berusaha membuktikan bahwa ia sedang diburu oleh seseorang yang tidak terlihat oleh siapapun.',
+'slug' => 'the-invisible-man',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Cecilia Kass (Elisabeth Moss) tidak pernah percaya bahwa mantan kekasihnya yang tempramental bunuh diri dan meninggalkan warisan kepadanya.'
+]);
+
+Movies::create([
+'title' => 'The Meg',
+'kategori_id' => '2',
+'body' => 'Lima tahun lalu, seorang ahli penyelam laut dan juga mantan Kapten Angkatan Laut bernama Jonas Taylor (Jason Statham) menghadapi marabahaya yang tidak terduga di relung Palung Mariana yang memaksanya untuk membatalkan misinya dan juga meninggalkan crew nya.',
+'slug' => 'the-meg',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Lima tahun lalu, seorang ahli penyelam laut dan juga mantan Kapten Angkatan Laut bernama Jonas Taylor (Jason Statham) menghadapi marabahaya yang tidak terduga di relung Palung Mariana.'
+]);
+
+Movies::create([
+'title' => 'The Sea Beast',
+'kategori_id' => '3',
+'body' => 'Film The Sea Beast menceritakan tentang pertarungan menegangkan yang dialami oleh seorang pemburu monster laut bernama Jacob Holland yang merupakan seorang kapten kapal yang gagah berani. Jacob Holland memiliki misi untuk menaklukkan dan membasmi hewan-hewan buas yang gentayangan di lautan.',
+'slug' => 'the-sea-beast',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Pertarungan menegangkan yang dialami oleh seorang pemburu monster laut bernama Jacob Holland yang merupakan seorang kapten kapal yang gagah berani.'
+]);
+
+Movies::create([
+'title' => 'Uncharted',
+'kategori_id' => '3',
+'body' => 'Nathan Drake direkrut oleh pemburu harta karun berpengalaman Victor Sullivan (Sully) untuk mengembalikan kekayaan yang dikumpulkan oleh Ferdinand Magellan dan hilang 500 tahun yang lalu oleh House of Moncada.',
+'slug' => 'uncharted',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Nathan Drake direkrut oleh pemburu harta karun berpengalaman Victor Sullivan (Sully) untuk mengembalikan kekayaan yang dikumpulkan oleh Ferdinand Magellan'
+]);
+
+Movies::create([
+'title' => 'Pixels',
+'kategori_id' => '3',
+'body' => 'Sebuah tim khusus yang terdiri dari gamer arcade ditugaskan untuk melawan ras alien misterius yang ternyata telah menonton game klasik era 80-an dan menganggap mereka telah mendeklarasikan perang.',
+'slug' => 'pixels',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Sebuah tim khusus yang terdiri dari gamer arcade ditugaskan untuk melawan ras alien misterius yang ternyata telah menonton game klasik era 80-an.'
+]);
+
+Movies::create([
+'title' => 'Zathura',
+'kategori_id' => '3',
+'body' => 'Dua kakak beradik tak sengaja memulai petualangan magis berbahaya saat bermain sebuah papan permainan tua. Ketika terjebak di dalam dunia permainan, mereka harus mencari cara untuk kembali ke Bumi.',
+'slug' => 'zathura',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Dua kakak beradik tak sengaja memulai petualangan magis berbahaya saat bermain sebuah papan permainan tua.'
+]);
+
+Movies::create([
+'title' => 'Dune',
+'kategori_id' => '3',
+'body' => 'SPerjalanan pahlawan mitis dan emosional, Dune"menceritakan kisah Paul Atreides, seorang pemuda cerdas dan berbakat yang lahir dalam takdir besar di luar pemahamannya, yang harus melakukan perjalanan ke planet paling berbahaya di alam semesta untuk memastikan masa depannya.',
+'slug' => 'dune',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Perjalanan pahlawan mitis dan emosional, Dune"menceritakan kisah Paul Atreides, seorang pemuda cerdas dan berbakat yang lahir dalam takdir besar di luar pemahamannya.'
+]);
+
+Movies::create([
+'title' => 'Maleficent',
+'kategori_id' => '3',
+'body' => 'Maleficent adalah sosok peri baik hati, yang dikhianati oleh kekasih hatinya, Stefan. Tak lama lagi, ia akan memberi kutukan pada putrinya, Aurora, dalam rangka untuk membalas rasa haus akan keadilan.',
+'slug' => 'maleficent',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Maleficent adalah sosok peri baik hati, yang dikhianati oleh kekasih hatinya, Stefan.'
+]);
+
+Movies::create([
+'title' => 'Ready Player One',
+'kategori_id' => '3',
+'body' => 'Ketika pencipta sebuah dunia virtual reality bernama OASIS meninggal, ia merilis video yang menantang semua pengguna OASIS untuk menemukan telur tersembunyi. Penemunya akan dapat hadiah besar. Wade Watts menemukan petunjuk pertama dan berlomba menemukan si telur tersembunyi ini.',
+'slug' => 'ready-player-one',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Ketika pencipta sebuah dunia virtual reality bernama OASIS meninggal, ia merilis video yang menantang semua pengguna OASIS untuk menemukan telur tersembunyi. '
+]);
+
+Movies::create([
+'title' => 'Inception',
+'kategori_id' => '3',
+'body' => 'Cobb, mata-mata ahli, mencuri informasi dari targetnya dengan masuk ke dalam mimpi mereka. Ia diburu atas pembunuhan istrinya, dan satu-satunya cara untuk menebus semua ini, adalah degan Inception.',
+'slug' => 'inception',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Cobb, mata-mata ahli, mencuri informasi dari targetnya dengan masuk ke dalam mimpi mereka.'
+]);
+
+
+Movies::create([
+'title' => '21 Jump Street',
+'kategori_id' => '4',
+'body' => 'Dua polisi baru, yang juga kebetulan dahulu adalah teman sekolah, ditugaskan untuk menyamar sebagai remaja untuk menyelidiki pengedar narkoba di sekolah tersebut. Namun untuk sampai ke sasaran, mereka harus kembali bersekolah.',
+'slug' => '21-jump-street',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Dua polisi baru, yang juga kebetulan dahulu adalah teman sekolah, ditugaskan untuk menyamar sebagai remaja untuk menyelidiki pengedar narkoba di sekolah tersebut.'
+]);
+
+Movies::create([
+'title' => 'My Stupid Boss',
+'kategori_id' => '4',
+'body' => 'Karena krisis kekurangan karyawan pabrik, akhirnya Bossman berniat untuk mencari karyawan pabrik baru di Vietnam. Berangkatlah Bossman, Diana, Mr.Kho, dan Adrian ke Vietnam. Di Vietnam alih-alih mendapatkan karyawan, justru mereka mendapatkan masalah demi masalah bertubi-tubi karena ulah Bossman.',
+'slug' => 'my-stupid-boss',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Karena krisis kekurangan karyawan pabrik, akhirnya Bossman berniat untuk mencari karyawan pabrik baru di Vietnam. Berangkatlah Bossman, Diana, Mr.Kho, dan Adrian ke Vietnam.'
+]);
+
+Movies::create([
+'title' => 'Johnny English',
+'kategori_id' => '4',
+'body' => 'Inggris menghadapi ancaman terbesar, tak hanya karena MI5 jadi tak efektif setelah terjadinya sebuah serangan. Kini satu-satunya harapan terletak pada Johnny English, mata-mata yang agak bodoh.',
+'slug' => 'johnny-english',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Inggris menghadapi ancaman terbesar, tak hanya karena MI5 jadi tak efektif setelah terjadinya sebuah serangan. Kini satu-satunya harapan terletak pada Johnny English.'
+]);
+
+Movies::create([
+'title' => 'Home Alone',
+'kategori_id' => '4',
+'body' => 'kisah anak kecil yang tidak sengaja tertinggal oleh keluarganya ketika musim liburan tiba. Kejadian ini membuatnya harus tinggal di rumah sendirian. Kisah dimulai dengan adegan keluarga McCallister yang sibuk mempersiapkan liburannya.',
+'slug' => 'home-alone',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'kisah anak kecil yang tidak sengaja tertinggal oleh keluarganya ketika musim liburan tiba. Kejadian ini membuatnya harus tinggal di rumah sendirian.'
+]);
+
+Movies::create([
+'title' => 'Don\'t Look Up',
+'kategori_id' => '4',
+'body' => 'Bersama profesornya, Dr. Randall Mindy (Leonardo DiCaprio), Kate menemukan adanya sebuah komet yang mengorbit di dalam tata surya. Komet berukuran besar tersebut diprediksi akan bertabrakan langsung dengan bumi. Hal ini membuat keduanya berusaha mati-matian untuk memperingatkan semua orang.',
+'slug' => 'dont-look-up',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Bersama profesornya, Dr. Randall Mindy (Leonardo DiCaprio), Kate menemukan adanya sebuah komet yang mengorbit di dalam tata surya. Komet berukuran besar tersebut diprediksi akan bertabrakan langsung dengan bumi.'
+]);
+
+Movies::create([
+'title' => 'Ted',
+'kategori_id' => '4',
+'body' => 'John Bennett mendapat keajaiban di hari Natal saat permintaannya terkabul: boneka beruang miliknya, Ted, akhirnya bisa hidup dan berbicara! John pun tumbuh besar dengan Ted, tapi semenjak dewasa, John merasa mulai menjauh dari sahabatnya itu. Dia pun harus memilih antara pacar barunya, Lori Collins, atau Ted.',
+'slug' => 'ted',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'John Bennett mendapat keajaiban di hari Natal saat permintaannya terkabul: boneka beruang miliknya, Ted, akhirnya bisa hidup dan berbicara!'
+]);
+
+Movies::create([
+'title' => 'How to Train Your Dragon',
+'kategori_id' => '4',
+'body' => 'Seorang Viking muda menentang tradisi ketika ia berteman dengan seekor naga bernama Toothless. Bersama, para pahlawan tidak biasa ini melawan segala rintangan demi menyelamatkan kedua dunia mereka.',
+'slug' => 'how-to-train-your-dragon',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Seorang Viking muda menentang tradisi ketika ia berteman dengan seekor naga bernama Toothless.'
+]);
+
+Movies::create([
+'title' => 'The Lego Movies',
+'kategori_id' => '4',
+'body' => 'Vitruvius mencoba untuk menyelamatkan senjata super \'Kragle\' dari si jahat Lord Business, tapi gagal. Kemudian, seorang pekerja konstruksi Emmet Brickowski, menemukannya tapi akhirnya pingsan.',
+'slug' => 'the-lego-movie',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Vitruvius mencoba untuk menyelamatkan senjata super \'Kragle\' dari si jahat Lord Business, tapi gagal.'
+]);
+
+
+Movies::create([
+'title' => 'Megamind',
+'kategori_id' => '5',
+'body' => 'Megamind, penjahat super, selalu mengalahkan dan membunuh musuh-musuhnya. Karena bosan, ia menciptakan superhero yang malah menjadi jahat - dan memaksa dirinya sendiri untuk berubah menjadi pahlawan.',
+'slug' => 'megamind',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Megamind, penjahat super, selalu mengalahkan dan membunuh musuh-musuhnya. Karena bosan, ia menciptakan superhero yang malah menjadi jahat.'
+]);
+
+Movies::create([
+'title' => 'Free Willy',
+'kategori_id' => '5',
+'body' => 'Seorang anak jalanan, Jesse berteman dengan Willy, seekor Paus Pembunuh, dan mempertaruhkan semuanya demi membebaskannya dari sang pemilik yang berencana membunuhnya.',
+'slug' => 'free-willy',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Seorang anak jalanan, Jesse berteman dengan Willy, seekor Paus Pembunuh'
+]);
+
+Movies::create([
+'title' => 'Sonic the Hedgehog',
+'kategori_id' => '5',
+'body' => 'Mengisahkan petualangan Sonic saat ia belajar tentang kompleksitas kehidupan di bumi bersama manusia sahabat barunya, Tom Wachowski. Sonic dan Tom bersatu untuk menghentikan si jahat Dr. Robotnik yang ingin menangkap Sonic dan menggunakan kekuatan istimewanya untuk menguasai dunia.',
+'slug' => 'sonic-the-hedgehog',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Mengisahkan petualangan Sonic saat ia belajar tentang kompleksitas kehidupan di bumi bersama manusia sahabat barunya.'
+]);
+
+Movies::create([
+'title' => 'Cars',
+'kategori_id' => '5',
+'body' => 'Lightning McQueen, si mobil balap, harus belajar bertanggung jawab setelah membuat rusak banyak properti di Radiator Springs. Kini, ia harus memperbaiki semua kerusakan sebelum ia bisa balapan lagi.',
+'slug' => 'cars',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Lightning McQueen, si mobil balap, harus belajar bertanggung jawab setelah membuat rusak banyak properti di Radiator Springs.'
+]);
+
+Movies::create([
+'title' => 'Cloudy with a Chance of Meatballs',
+'kategori_id' => '5',
+'body' => 'Flint, penemu muda, sering dicap sebagai pencundang, sampai ia menciptakan sebuah mesin yang dapat membuat makanan jatuh dari langit. Tapi, kali ini mesin ciptaannya malah berubah menjadi mimpi buruk.',
+'slug' => 'cloudy-with-a-chance-of-meatballs',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Flint, penemu muda, sering dicap sebagai pencundang, sampai ia menciptakan sebuah mesin yang dapat membuat makanan jatuh dari langit.'
+]);
+
+Movies::create([
+'title' => 'Alvin and the Chipmunks',
+'kategori_id' => '5',
+'body' => 'Dave Seville bergabung dengan tiga tupai pintar bermusik yang mencoba menaklukan industri musik. Namun, Ian Hawk, seorang produser rekaman serakah, mencoba untuk memisahkan dan mengeksploitasi mereka.',
+'slug' => 'alvin-and-the-chipmunks',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Dave Seville bergabung dengan tiga tupai pintar bermusik yang mencoba menaklukan industri musik.'
+]);
+
+Movies::create([
+'title' => 'Christopher Robin',
+'kategori_id' => '5',
+'body' => 'Christopher Robin (Ewan McGregor) merupakan seorang anak kecil dari cerita Winnie the Pooh, saat ia telah tumbuh dewasa dan kehilangan semua imajinasinya tentang sekelompok boneka binatang yang ada di Hundred Acre Wood. Pooh, Eeyore, Tigger, Owl, Piglet dan Roo dan para temannya kembali pada kehidupan Christopher dan membantunya untuk menemukan mimpi serta imajinasinya kembali.',
+'slug' => 'christopher-robin',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Christopher Robin (Ewan McGregor) merupakan seorang anak kecil dari cerita Winnie the Pooh, saat ia telah tumbuh dewasa dan kehilangan semua imajinasinya tentang sekelompok boneka binatang yang ada di Hundred Acre Wood.'
+]);
+
+Movies::create([
+'title' => 'Happy Feet',
+'kategori_id' => '5',
+'body' => 'Kisah animasi penguin kaisar yang tak seperti lainnya. Mengomel, tak bisa bernyanyi, tapi ia bisa menari. Tapi ia dikucilkan & disalahkan atas musim nelayan yang buruk & harus meninggalkan rumahnya.',
+'slug' => 'happy-feet',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Kisah animasi penguin kaisar yang tak seperti lainnya. Mengomel, tak bisa bernyanyi, tapi ia bisa menari.'
+]);
+
+
+Movies::create([
+'title' => 'Charlie and the Chocolate Factory',
+'kategori_id' => '6',
+'body' => 'Charlie, bocah dari keluarga miskin, memenangkan sebuah tiket emas bersama dengan empat anak lainnya. Hadiahnya, mereka akan diajak berkeliling ke dalam pabrik coklat paling menakjubkan di dunia.',
+'slug' => 'charlie-and-the-chocolate-factory',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Charlie, bocah dari keluarga miskin, memenangkan sebuah tiket emas bersama dengan empat anak lainnya.'
+]);
+
+Movies::create([
+'title' => 'A Whisker Away',
+'kategori_id' => '6',
+'body' => 'Seorang gadis SMP bernama Sasaki Miyo (Hanae Mitsuki) yang merasa kurang bahagia dalam hidupnya. Kemudian, ia berubah menjadi seekor kucing untuk mencoba mencari kebahagian.',
+'slug' => 'a-whisker-away',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Seorang gadis SMP bernama Sasaki Miyo (Hanae Mitsuki) yang merasa kurang bahagia dalam hidupnya.'
+]);
+
+Movies::create([
+'title' => 'Jumanji',
+'kategori_id' => '6',
+'body' => 'Dalam sebuah petualangan Jumanji yang baru, empat anak sekolah menengah menemukan sebuah konsol video game tua dan ditarik ke dalam setting hutan permainan, yang secara harfiah menjadi avatar dewasa yang mereka pilih. Apa yang mereka temukan adalah bahwa Anda tidak hanya bermain Jumanji - Anda harus bisa bertahan. Untuk mengalahkan permainan dan kembali ke dunia nyata, mereka harus menjalani petualangan paling berbahaya dalam hidup mereka, menemukan apa yang Alan Parrish tinggalkan 20 tahun yang lalu, dan mengubah cara mereka memikirkan diri mereka sendiri - atau mereka akan terjebak. dalam permainan selamanya, untuk dimainkan oleh orang lain tanpa henti.',
+'slug' => 'jumanji' ,
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Dalam sebuah petualangan Jumanji yang baru, empat anak sekolah menengah menemukan sebuah konsol video game tua dan ditarik ke dalam setting hutan permainan, yang secara harfiah menjadi avatar dewasa yang mereka pilih. Apa yang mereka temukan adalah bahwa Anda tidak hanya bermain Jumanji - Anda harus bisa bertahan.'
+]);
+
+Movies::create([
+'title' => 'Kong: Skull Island',
+'kategori_id' => '6',
+'body' => 'Sebuah tim ilmuwan menjelajahi pulau yang belum dipetakan di Pasifik, dan tak sengaja memasuki wilayah sesosok kera raksasa. Kini, mereka harus berjuang untuk melarikan diri dari kejaran para monster.',
+'slug' => 'kong-skull-sland' ,
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Sebuah tim ilmuwan menjelajahi pulau yang belum dipetakan di Pasifik, dan tak sengaja memasuki wilayah sesosok kera raksasa.'
+]);
+
+Movies::create([
+'title' => 'Harry Potter and the Sorcerer\'s Stone',
+'kategori_id' => '6',
+'body' => 'Seorang anak laki-laki berusia sebelas tahun biasa melayani sebagai semacam budak untuk bibi dan pamannya yang mengetahui bahwa dia sebenarnya adalah seorang penyihir dan telah diundang untuk menghadiri Sekolah Sihir Hogwarts. Harry direnggut dari keberadaannya yang biasa oleh Rubeus Hagrid, penjaga lapangan untuk Hogwarts, dan dengan cepat dilemparkan ke dunia yang benar-benar asing baginya.',
+'slug' => 'harry-potter-and-the-sorcerers-stone' ,
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'seorang anak laki-laki berusia sebelas tahun biasa melayani sebagai semacam budak untuk bibi dan pamannya yang mengetahui bahwa dia sebenarnya adalah seorang penyihir dan telah diundang untuk menghadiri Sekolah Sihir Hogwarts.'
+]);
+
+Movies::create([
+'title' => 'Fantastic Beasts and Where to Find Them',
+'kategori_id' => '6',
+'body' => 'Newt tiba di New York dengan membawa koper berisi makhluk-makhluk ajaib. Masalah pun menimpa Newt saat teman-temannya itu melarikan diri dan ia harus menghadapi penyelidikan dewan penyihir MACUSA.',
+'slug' => 'fantastic-beasts-and-where-to-find-hem' ,
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Newt tiba di New York dengan membawa koper berisi makhluk-makhluk ajaib.'
+]);
+
+Movies::create([
+'title' => 'The Hobbit 1: An Unexpected Journey',
+'kategori_id' => '6',
+'body' => 'Bilbo Baggins terlibat dalam petualangan menegangkan untuk menemukan kembali Kerajaan Erebor yang hilang. Mendapat tugas dari Gandalf, Bilbo bergabung dengan tiga belas kurcaci lain yang dipimpin oleh Thorin Oakenshield. Meskipun tujuan mereka adalah pergi ke arah Timur, namun mereka harus melewati terowongan berbahaya, di mana Bilbo bertemu dengan Gollum. Bilbo pun mendapati dirinya membawa sebuah cincin emas yang dapat mengubah takdir kehidupan di Middle Earth di luar kuasa Bilbo sendiri.',
+'slug' => 'the-hobbit-an-unexpected-journey' ,
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Bilbo Baggins terlibat dalam petualangan menegangkan untuk menemukan kembali Kerajaan Erebor yang hilang. Mendapat tugas dari Gandalf, Bilbo bergabung dengan tiga belas kurcaci lain yang dipimpin oleh Thorin Oakenshield.'
+]);
+
+Movies::create([
+'title' => 'The Lord of the Rings: The Fellowship of the Ring',
+'kategori_id' => '6',
+'body' => 'Frodo, si hobbit muda, mewarisi sebuah cincin berkekuatan jahat milik Sauron, sang Penguasa Kegelapan. Kini, ia harus memulai perjalanan panjang penuh bahaya menuju Mount Doom demi menghancurkannya.',
+'slug' => 'the-lord-of-the-rings-he-fellowship-of-the-ring' ,
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Frodo, si hobbit muda, mewarisi sebuah cincin berkekuatan jahat milik Sauron, sang Penguasa Kegelapan.'
+]);
+
+
+Movies::create([
+'title' => 'Knives Out',
+'kategori_id' => '7',
+'body' => 'Harlan Thrombey (Christopher Plummer) adalah penulis novel misteri yang kaya raya. Di ulang tahunnya yang ke-85 ia tewas secara misterius. Keluarga Harlan yang datang berkumpul kini menjadi tersangka. Mereka dicurigai oleh Detektif terkenal Benoit Blanc (Daniel Craig) yang datang untuk menyelidiki insiden ini.',
+'slug' => 'knives-out',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Harlan Thrombey (Christopher Plummer) adalah penulis novel misteri yang kaya raya. Di ulang tahunnya yang ke-85 ia tewas secara misterius. Keluarga Harlan yang datang berkumpul kini menjadi tersangka.'
+]);
+
+Movies::create([
+'title' => 'Shutter Island',
+'kategori_id' => '7',
+'body' => 'Seorang perwira ditugaskan untuk menyelidiki hilangnya seorang pasien yang telah melarikan diri dari rumah sakit jiwa. Hal-hal berbahaya mulai meragukan segalanya, termasuk kewarasannya sendiri.',
+'slug' => 'shutter-island',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Seorang perwira ditugaskan untuk menyelidiki hilangnya seorang pasien yang telah melarikan diri dari rumah sakit jiwa.'
+]);
+
+Movies::create([
+'title' => 'Tenet',
+'kategori_id' => '7',
+'body' => 'Dipersenjatai hanya dengan sepatah kata—Tenet—dan berjuang untuk kelangsungan dunia, sang protagonis mengarungi senjakala dunia spionase internasional dalam sebuah misi yang membawa pada sesuatu yang melebihi alir waktu.',
+'slug' => 'tenet',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Dipersenjatai hanya dengan sepatah kata—Tenet—dan berjuang untuk kelangsungan dunia.'
+]);
+
+Movies::create([
+'title' => 'Gone Girl ',
+'kategori_id' => '7',
+'body' => 'Pada suatu pagi istrinya hilang secara misterius. Nick Dunne lapor polisi dan media segera meliput kasus ini secara besar-besaran. Namun mereka curiga - mungkin Nick telah membunuh istrinya sendiri.',
+'slug' => 'gone-girl ',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Pada suatu pagi istrinya hilang secara misterius. Nick Dunne lapor polisi dan media segera meliput kasus ini secara besar-besaran'
+]);
+
+Movies::create([
+'title' => 'The Prestige',
+'kategori_id' => '7',
+'body' => 'Dua teman-pesulap berubah menjadi rival menyusul sebuah tragedi. Ketika persaingan semakin sengit, mereka mengorbankan segalanya demi ketenaran - namun konsekuensi mengerikan pun tak terhindarkan.',
+'slug' => 'the-prestige',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Dua teman-pesulap berubah menjadi rival menyusul sebuah tragedi.'
+]);
+
+Movies::create([
+'title' => 'Bird Box',
+'kategori_id' => '7',
+'body' => 'Teror misterius kepada penduduk dunia yang mengakibatkan bunuh diri masal. Setelah menyerang Siberia dan menyebar ke berbagai belahan Eropa, kejadian misterius itu akhirnya menyerang warga Amerika. Malorie Hayes (Sandra Bullock), seorang seniman yang tengah mengandung sedang memeriksakan diri ke dokter bersama kakak perempuannya Jessica (Sarah Paulson). Dalam perjalanan pulang, keduanya melihat terjadi kekacauan di luar hingga banyak orang melakukan bunuh diri. Di saat yang sama, Jessica kemudian terlihat aneh hingga akhirnya bunuh diri di depan mata Malorie.',
+'slug' => 'bird-box',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Bird Box bercerita tentang sebuah fenomena aneh di mana hampir semua orang mengalami halusinasi dan melakukan bunuh diri secara bersamaan.'
+]);
+
+Movies::create([
+'title' => 'The Invitation',
+'kategori_id' => '7',
+'body' => 'Evie diundang oleh sepupunya untuk datang ke Inggris menghadiri pesta pernikahan. Namun kebahagiaan tersebut berakhir dengan cepat ketika Evie menemukan rahasia besar keluarga barunya.',
+'slug' => 'the-invitation',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Evie diundang oleh sepupunya untuk datang ke Inggris menghadiri pesta pernikahan.'
+]);
+
+Movies::create([
+'title' => 'Identity',
+'kategori_id' => '7',
+'body' => 'Bercerita tentang sepuluh orang asing yang terdampar di sebuah hotel di daerah Nevada. Hotel tersebut dikelola oleh seseorang bernama Larry (John Hawkes). Setelah terdampar di hotel, sepuluh orang tersebut secara perlahan dibunuh oleh sosok misterius.',
+'slug' => 'identity',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Bercerita tentang sepuluh orang asing yang terdampar di sebuah hotel di daerah Nevada.'
+]);
+
+Movies::create([
+'title' => 'Pacific Rim',
+'kategori_id' => '8',
+'body' => 'Pemerintah menyebut, Jaegers, pasukan robot yang bertepur melawan Kaijus, tak efektif. Tapi Stacker Pentakosta dan timnya percaya bahwa, hanya Jaegers yang dapat menyelamatkan dunia dari kehancuran.',
+'slug' => 'pacific-rim',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Pemerintah menyebut, Jaegers, pasukan robot yang bertepur melawan Kaijus, tak efektif.'
+]);
+
+Movies::create([
+'title' => 'Gemini Man',
+'kategori_id' => '8',
+'body' => 'Henry Brogan (Will Smith) adalah pembunuh bayaran terbaik yang pernah ada. Namun ia harus menghadapi ujian terberatnya saat diburu oleh Junior, pembunuh bayaran muda yang sangat tangguh dan mirip dengan dirinya.',
+'slug' => 'gemini-man',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Henry Brogan (Will Smith) adalah pembunuh bayaran terbaik yang pernah ada.'
+]);
+
+Movies::create([
+'title' => 'The Tomorrow War',
+'kategori_id' => '8',
+'body' => 'Bercerita tentang sekelompok penjelajah waktu yang datang dari tahun 2051 untuk menyampaikan pesan penting. Mereka berpesan bahwa 30 tahun di masa depan umat manusia kalah dalam perang global melawan spesies asing yang mematikan.',
+'slug' => 'the-tomorrow-war',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Bercerita tentang sekelompok penjelajah waktu yang datang dari tahun 2051 untuk menyampaikan pesan penting.'
+]);
+
+Movies::create([
+'title' => 'Arrival',
+'kategori_id' => '8',
+'body' => 'Louise Banks, seorang ahli linguistik, bersama timnya, harus menafsirkan bahasa alien yang datang ke Bumi dengan pesawat luar angkasa misterius.',
+'slug' => 'arrival',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Louise Banks, seorang ahli linguistik, bersama timnya, harus menafsirkan bahasa alien yang datang ke Bumi.'
+]);
+
+Movies::create([
+'title' => 'Ender\'s Game',
+'kategori_id' => '8',
+'body' => 'Ender Wiggin, ahli strategi remaja, direkrut oleh Internasional Military untuk memimpin perang melawan Formics, ras alien kejam yang hampir saja memusnahkan umat manusia dalam sebuah invasi mematikan.',
+'slug' => 'enders-game',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Ender Wiggin, ahli strategi remaja, direkrut oleh Internasional Military untuk memimpin perang melawan Formics.'
+]);
+
+Movies::create([
+'title' => 'Transformers',
+'kategori_id' => '8',
+'body' => 'Pertempuran kuno antara dua klan Cybertronian, para Autobots heroik melawan Decepticons jahat meletus di Bumi - memperebutkan sebuah kubus berkekuatan dahsyat yang dipegang oleh seorang remaja.',
+'slug' => 'transformers',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Pertempuran kuno antara dua klan Cybertronian, para Autobots heroik melawan Decepticons jahat meletus di Bumi.'
+]);
+
+Movies::create([
+'title' => 'Interstellar ',
+'kategori_id' => '8',
+'body' => 'Sebuah tim penjelajah antar galaksi harus melewati lubang cacing dan terjebak di dimensi waktu ruang angkasa dalam upaya untuk menjamin kelangsungan hidup umat manusia di planet bumi.',
+'slug' => 'interstellar ',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Sebuah tim penjelajah antar galaksi harus melewati lubang cacing dan terjebak di dimensi waktu ruang angkasa.'
+]);
+
+Movies::create([
+'title' => 'Edge of Tomorrow',
+'kategori_id' => '8',
+'body' => 'Dengan bantuan prajurit Rita Vrataski, Mayor William Cage harus menyelamatkan Planet Bumi dari makhluk asing, setelah terjebak dalam lingkaran waktu. Apakah ia memiliki keahlian untuk membasmi alien?',
+'slug' => 'edge-of-tomorrow',
+'rating' => 4.2,
+'upvote' => 0,
+'excerpt' => 'Dengan bantuan prajurit Rita Vrataski, Mayor William Cage harus menyelamatkan Planet Bumi dari makhluk asing.'
+]);
+
+
+
+
+
 kategori::create([
-    'title' => 'Action',
-    'slug' => 'action',
+'title' => 'Action',
+'slug' => 'action',
 ]);
 
 kategori::create([
-    'title' => 'Horror',
-    'slug' => 'horror',
+'title' => 'Horror',
+'slug' => 'horror',
 ]);
 
 kategori::create([
-    'title' => 'Adventure',
-    'slug' => 'adventure',
+'title' => 'Adventure',
+'slug' => 'adventure',
 ]);
 
 kategori::create([
-    'title' => 'Comedy',
-    'slug' => 'comedy',
+'title' => 'Comedy',
+'slug' => 'comedy',
+]);
+
+kategori::create([
+'title' => 'Family',
+'slug' => 'family',
+]);
+
+kategori::create([
+'title' => 'Fantasy',
+'slug' => 'fantasy',
+]);
+
+kategori::create([
+'title' => 'Mystery',
+'slug' => 'mystery',
+]);
+
+kategori::create([
+'title' => 'Sci-fi',
+'slug' => 'sci-fi',
 ]);

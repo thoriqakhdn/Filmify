@@ -1,14 +1,15 @@
 <?php
 
 
-use App\Http\Controllers\LoginController;
-use App\Http\Controllers\RegisterController;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\KategoriController;
 use App\Models\Movies;
 use App\Models\kategori;
-
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\MoviesController;
+
+use App\Http\Controllers\KategoriController;
+use App\Http\Controllers\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -81,6 +82,8 @@ Route::get('/Profil', function () {
         "title" => "Profil"
     ]);
 });
+
+Route::get('/Movies/{Movies:slug}', [MoviesController::class, 'show']);
 
 // Route::get('/movies', function () {
 //     return view('movies', [

@@ -87,7 +87,7 @@
     </symbol>
 </svg>
 
-<div class="container" style="background-color: #fbf4e2; max-width:100%; max-height:100%;margin-top:7.5em">
+<div class="containerfoot" style="background-color: #fbf4e2; max-width:100%; max-height:100%">
     <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
         <div class="col mb-3">
             <p class="font-weight-bold fs-2">Filmify</p>

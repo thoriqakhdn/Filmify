@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="css/profile.css">
 <div class="container">
     <div class="profile">
-        <img src="images/profile.jpg" class="profile-pic">
+        <img src="images/profile.png" class="profile-pic">
         <h1> Adam Levine </h1>
         <a href="#" class="follow-btn">Follow</a>
 
@@ -26,7 +26,7 @@
 </div>
 
 
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center pb-3">
     <form action="/logout" method="post">
         @csrf
         <button type="submit" class="btn btn-primary btn-lg px-4 me-md-2 mt-4">Logout</button>

@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="css/profile.css">
 <div class="container">
     <div class="profile">
-        <img src="images/profile.jpg" class="profile-pic">
+        <img src="images/profile.png" class="profile-pic">
         <h1> Adam Levine </h1>
         <a href="#" class="follow-btn">Follow</a>
 
@@ -25,7 +25,7 @@
     </div>
 </div>
 
-<section class="cards center-block">
+<section class="cards center-block pb-3">
     <article class="card ">
 
         <div>
@@ -56,7 +56,7 @@
         </div>
         <div class="card-img"></div>
         <a href="#">
-            <div class="card-img-hover" style="background-image: url(images/movie2.jpg);">
+            <div class="card-img-hover" style="background-image: url(images/movie2.png);">
             </div>
         </a>
 
@@ -79,7 +79,7 @@
         </div>
         <div class="card-img"></div>
         <a href="#">
-            <div class="card-img-hover" style="background-image: url(images/movie3.jpg);">
+            <div class="card-img-hover" style="background-image: url(images/movie3.png);">
             </div>
         </a>
 
