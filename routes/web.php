@@ -83,7 +83,21 @@ Route::get('/Profil', function () {
     ]);
 });
 
-Route::get('/Movies/{Movies:slug}', [MoviesController::class, 'show']);
+Route::get('{movie:slug}', function (Movies $movie) {
+    return view('1movies', [
+        'title' => $movie->title,
+        'films' => $movie
+    ]);
+});
+
+// Route::get('/{slug}', function () {
+//     $movies = Movies::where('slug', $slug)->first();
+//     @dd($movies);
+//     return view('1movies', [
+//         'title' => $movies->title,
+//         'film' => $movies
+//     ]);
+// });
 
 // Route::get('/movies', function () {
 //     return view('movies', [

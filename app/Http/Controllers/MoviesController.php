@@ -12,12 +12,4 @@ class MoviesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function show($slug)
-    {
-        $movies = Movies::firstWhere(['slug' => $slug]);
-        return view('1movies', [
-            'title' => $movies->title,
-            'film' => $movies
-        ]);
-    }
 }

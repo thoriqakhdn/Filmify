@@ -1,8 +1,8 @@
 @extends('HeaderHome')
 @section('container')
 
+<h1>{{$films->title}}</h1>
 
-{{ film->title }}
 
 @include('Footer')
 @endsection
