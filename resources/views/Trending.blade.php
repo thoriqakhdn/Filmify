@@ -7,153 +7,20 @@
 <div class="container">
     <h1>FILM TERATAS</h1>
     <div class="cards">
-        <div class="card">
+        @foreach($films as $film)
+        <article class="card">
             <div class="card-img"></div>
-            <a href="#">
+            <a href="{{ $film-> slug }}">
                 <div class="card-img-hover" style="background-image: url(images/movie1.png);"></div>
             </a>
             <div class="card-info">
-                <span class="card-category">The Duffer Brothers</span>
-                <h3 class="card-title">Stranger Things</h3>
-                <div class="card-img-logo" style="background-image: url(images/Logo.png);">
-                </div>
-                <h6 class="card-title"> 86/100 </h6>
-                <span class="card-by">
-                    <a href="#" class="card-genre">Action, Adventure, Horror</a>
+                {{-- <span class="card-category text-truncate">{{ $film-> studios }}</span> --}}
+                <h3 class="card-title text-truncate">{{ $film->title }}</h3>
+                <div class="card-img-logo" style="background-image: url(images/Logo.png); margin-top: 6px;"></div>
+                <h6 class="card-title">{{ $film->rating }}</h6>
             </div>
-        </div>
-
-        <!-- --BATAS-- -->
-
-        <div class="card">
-            <div class="card-img"></div>
-            <a href="#">
-                <div class="card-img-hover" style="background-image: url(images/movie1.png);"></div>
-            </a>
-            <div class="card-info">
-                <span class="card-category">The Duffer Brothers</span>
-                <h3 class="card-title">Stranger Things</h3>
-                <div class="card-img-logo" style="background-image: url(images/Logo.png);">
-                </div>
-                <h6 class="card-title"> 86/100 </h6>
-                <span class="card-by">
-                    <a href="#" class="card-genre">Action, Adventure, Horror</a>
-            </div>
-        </div>
-
-        <!-- --BATAS-- -->
-
-        <div class="card">
-            <div class="card-img"></div>
-            <a href="#">
-                <div class="card-img-hover" style="background-image: url(images/movie2.png);"></div>
-            </a>
-            <div class="card-info">
-                <span class="card-category">DC Universe</span>
-                <h3 class="card-title">The Batman</h3>
-                <div class="card-img-logo" style="background-image: url(images/Logo.png);">
-                </div>
-                <h6 class="card-title"> 90/100 </h6>
-                <span class="card-by">
-                    <a href="#" class="card-genre">Action, Adventure, Superheroes</a>
-                </span>
-            </div>
-        </div>
-
-        <!-- --BATAS-- -->
-
-        <div class="card">
-            <div class="card-img"></div>
-            <a href="#">
-                <div class="card-img-hover" style="background-image: url(images/movie2.png);"></div>
-            </a>
-            <div class="card-info">
-                <span class="card-category">DC Universe</span>
-                <h3 class="card-title">The Batman</h3>
-                <div class="card-img-logo" style="background-image: url(images/Logo.png);">
-                </div>
-                <h6 class="card-title"> 90/100 </h6>
-                <span class="card-by">
-                    <a href="#" class="card-genre">Action, Adventure, Superheroes</a>
-                </span>
-            </div>
-        </div>
-
-        <!-- --BATAS-- -->
-
-        <div class="card">
-            <div class="card-img"></div>
-            <a href="#">
-                <div class="card-img-hover" style="background-image: url(images/movie2.png);"></div>
-            </a>
-            <div class="card-info">
-                <span class="card-category">DC Universe</span>
-                <h3 class="card-title">The Batman</h3>
-                <div class="card-img-logo" style="background-image: url(images/Logo.png);">
-                </div>
-                <h6 class="card-title"> 90/100 </h6>
-                <span class="card-by">
-                    <a href="#" class="card-genre">Action, Adventure, Superheroes</a>
-                </span>
-            </div>
-        </div>
-
-        <!-- --BATAS-- -->
-
-        <div class="card">
-            <div class="card-img"></div>
-            <a href="#">
-                <div class="card-img-hover" style="background-image: url(images/movie2.png);"></div>
-            </a>
-            <div class="card-info">
-                <span class="card-category">DC Universe</span>
-                <h3 class="card-title">The Batman</h3>
-                <div class="card-img-logo" style="background-image: url(images/Logo.png);">
-                </div>
-                <h6 class="card-title"> 90/100 </h6>
-                <span class="card-by">
-                    <a href="#" class="card-genre">Action, Adventure, Superheroes</a>
-                </span>
-            </div>
-        </div>
-
-        <!-- --BATAS-- -->
-
-        <div class="card">
-            <div class="card-img"></div>
-            <a href="#">
-                <div class="card-img-hover" style="background-image: url(images/movie2.png);"></div>
-            </a>
-            <div class="card-info">
-                <span class="card-category">DC Universe</span>
-                <h3 class="card-title">The Batman</h3>
-                <div class="card-img-logo" style="background-image: url(images/Logo.png);">
-                </div>
-                <h6 class="card-title"> 90/100 </h6>
-                <span class="card-by">
-                    <a href="#" class="card-genre">Action, Adventure, Superheroes</a>
-                </span>
-            </div>
-        </div>
-
-        <!-- --BATAS-- -->
-
-        <div class="card">
-            <div class="card-img"></div>
-            <a href="#">
-                <div class="card-img-hover" style="background-image: url(images/movie2.png);"></div>
-            </a>
-            <div class="card-info">
-                <span class="card-category">DC Universe</span>
-                <h3 class="card-title">The Batman</h3>
-                <div class="card-img-logo" style="background-image: url(images/Logo.png);">
-                </div>
-                <h6 class="card-title"> 90/100 </h6>
-                <span class="card-by">
-                    <a href="#" class="card-genre">Action, Adventure, Superheroes</a>
-                </span>
-            </div>
-        </div>
+        </article>
+        @endforeach
     </div>
 
     <!-- --BATAS SLIDER-- -->

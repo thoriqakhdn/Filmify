@@ -69,56 +69,50 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/navbar.css" rel="stylesheet">
+    @livewireStyles
 </head>
 
 <body>
     <main>
-        <nav class="navbarheader1 navbar-expand-lg rounded mb-0" aria-label="navbarheader1">
-            <div class="container-fluid  my-2">
-                <div class="collapse navbar-collapse justify-content-center" id="navbarheader1">
-                    <form class="mt-2" style="width: 22%; margin-left: 5em;" role="search">
-                        <input class="form-control" type="search" placeholder="Cari film yang ingin kamu temukan" aria-label="Search">
-                    </form>
+        <livewire:search-dropdown>
+
+            <nav class="navbar navbar-expand-lg rounded" aria-label="navbarheader2">
+                <div class="container-fluid my-0">
+                    <a class="navbar-brand" href="/Home"><img src="Images/Logo.png" width="100">{{config('app.name')}}</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarheader2" aria-controls="navbarheader2" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarheader2">
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link {{ ($title === "Home") ? 'active' : ''}}" href="/Home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ ($title === "Trending") ? 'active' : ''}}" href="{{url('/Trending')}}">Trending</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ ($title === "Kategori") ? 'active' : ''}}" href="{{url('/Kategori')}}">Kategori</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ ($title === "Koleksi") ? 'active' : ''}}" href="{{url('/Koleksi')}}">Koleksi</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="">
+                        <a href="/Profil" class="d-block link-dark text-decoration-none mr-1">
+                            <img src="https://github.com/mdo.png" alt="mdo" width="100" height="100" class="rounded-circle">
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
 
-        <nav class="navbar navbar-expand-lg rounded" aria-label="navbarheader2">
-            <div class="container-fluid my-0">
-                <a class="navbar-brand" href="/Home"><img src="Images/Logo.png" width="100">{{config('app.name')}}</a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarheader2" aria-controls="navbarheader2" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-center" id="navbarheader2">
-
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link {{ ($title === "Home") ? 'active' : ''}}" href="/Home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{ ($title === "Trending") ? 'active' : ''}}" href="{{url('/Trending')}}">Trending</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{ ($title === "Kategori") ? 'active' : ''}}" href="{{url('/Kategori')}}">Kategori</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{ ($title === "Koleksi") ? 'active' : ''}}" href="{{url('/Koleksi')}}">Koleksi</a>
-                        </li>
-                    </ul>
-
-                </div>
-
-                <div class="">
-                    <a href="/Profil" class="d-block link-dark text-decoration-none mr-1">
-                        <img src="https://github.com/mdo.png" alt="mdo" width="100" height="100" class="rounded-circle">
-                    </a>
-                </div>
-            </div>
-        </nav>
-
-        @yield('container')
+            @yield('container')
     </main>
 
     <script src="{{asset('front/js/bootstrap.bundle.min.js')}}"></script>
+    @livewireScripts

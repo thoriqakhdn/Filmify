@@ -64,6 +64,12 @@
 </style>
 
 <main>
+    @if(session()->has('success'))
+    <div class="alert alert-success alert-dismissible fade show d-flex align-item-center w-25" role="alert">
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        {{session('success')}}
+    </div>
+    @endif
     <!-- Carousel -->
     <section class="carousel">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -119,81 +125,22 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <!-- Isi Film -->
+                @foreach($films2 as $film)
                 <div class="swiper-slide">
                     <article class="card">
                         <div class="card-img"></div>
-                        <a href="#">
+                        <a href="{{ $film-> slug }}">
                             <div class="card-img-hover" style="background-image: url(images/movie1.png);"></div>
                         </a>
-
                         <div class="card-info">
-                            <span class="card-category text-truncate">The Duffer Brothers</span>
-                            <h3 class="card-title text-truncate">Stranger Things</h3>
+                            {{-- <span class="card-category text-truncate">{{ $film-> studios }}</span> --}}
+                            <h3 class="card-title text-truncate">{{ $film->title }}</h3>
                             <div class="card-img-logo" style="background-image: url(images/Logo.png); margin-top: 6px;"></div>
-                            <h6 class="card-title">86/100</h6>
-                            <span class="card-by">
-                                <a href="#" class="card-genre">Action, Adventure, Horror</a>
-                            </span>
+                            <h6 class="card-title">{{$film->rating}}</h6>
                         </div>
                     </article>
                 </div>
-                <div class="swiper-slide">
-                    <article class="card">
-                        <div class="card-img"></div>
-                        <a href="#">
-                            <div class="card-img-hover" style="background-image: url(images/movie3.png);"></div>
-                        </a>
-
-                        <div class="card-info">
-                            <span class="card-category text-truncate">Marvel</span>
-                            <h3 class="card-title text-truncate">
-                                Spiderman : Into the spiderverse
-                            </h3>
-                            <div class="card-img-logo" style="background-image: url(images/Logo.png); margin-top: 6px;"></div>
-                            <h6 class="card-title">86/100</h6>
-                            <span class="card-by">
-                                <a href="#" class="card-genre">Action, Superheroes</a></span>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="swiper-slide">
-                    <article class="card">
-                        <div class="card-img"></div>
-                        <a href="#">
-                            <div class="card-img-hover" style="background-image: url(images/movie2.png);"></div>
-                        </a>
-
-                        <div class="card-info">
-                            <span class="card-category">DC Universe</span>
-                            <h3 class="card-title text-truncate">The Batman</h3>
-                            <div class="card-img-logo" style="background-image: url(images/Logo.png); margin-top: 6px;"></div>
-                            <h6 class="card-title">90/100</h6>
-                            <span class="card-by">
-                                <a href="#" class="card-genre text-truncate">Action, Adventure, Superheroes</a>
-                            </span>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="swiper-slide">
-                    <article class="card">
-                        <div class="card-img"></div>
-                        <a href="#">
-                            <div class="card-img-hover" style="background-image: url(images/movie2.png);"></div>
-                        </a>
-
-                        <div class="card-info">
-                            <span class="card-category">DC Universe</span>
-                            <h3 class="card-title text-truncate">The Batman</h3>
-                            <div class="card-img-logo" style="background-image: url(images/Logo.png); margin-top: 6px;"></div>
-                            <h6 class="card-title">90/100</h6>
-                            <span class="card-by">
-                                <a href="#" class="card-genre text-truncate">Action, Adventure, Superheroes</a>
-                            </span>
-                        </div>
-                    </article>
-                </div>
+                @endforeach
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -211,88 +158,30 @@
             </div>
         </div>
         <!-- Swiper -->
+
         <div class="swiper mySwiper2">
             <div class="swiper-wrapper">
                 <!-- Isi Film -->
+                @foreach($films as $film)
                 <div class="swiper-slide">
                     <article class="card">
                         <div class="card-img"></div>
-                        <a href="#">
+                        <a href="{{ $film-> slug }}">
                             <div class="card-img-hover" style="background-image: url(images/movie1.png);"></div>
                         </a>
                         <div class="card-info">
-                            <span class="card-category text-truncate">The Duffer Brothers</span>
-                            <h3 class="card-title text-truncate">Stranger Things</h3>
+                            {{-- <span class="card-category text-truncate">{{ $film-> studios }}</span> --}}
+                            <h3 class="card-title text-truncate">{{ $film->title }}</h3>
                             <div class="card-img-logo" style="background-image: url(images/Logo.png); margin-top: 6px;"></div>
-                            <h6 class="card-title">86/100</h6>
-                            <span class="card-by">
-                                <a href="#" class="card-genre">Action, Adventure, Horror</a>
-                            </span>
+                            <h6 class="card-title">{{ $film->rating }}</h6>
                         </div>
                     </article>
                 </div>
-
-                <div class="swiper-slide">
-                    <article class="card">
-                        <div class="card-img"></div>
-                        <a href="#">
-                            <div class="card-img-hover" style="background-image: url(images/movie3.png);"></div>
-                        </a>
-
-                        <div class="card-info">
-                            <span class="card-category text-truncate">Marvel</span>
-                            <h3 class="card-title text-truncate">
-                                Spiderman : Into the spiderverse
-                            </h3>
-                            <div class="card-img-logo" style="background-image: url(images/Logo.png); margin-top: 6px;"></div>
-                            <h6 class="card-title">86/100</h6>
-                            <span class="card-by">
-                                <a href="#" class="card-genre">Action, Superheroes</a></span>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="swiper-slide">
-                    <article class="card">
-                        <div class="card-img"></div>
-                        <a href="#">
-                            <div class="card-img-hover" style="background-image: url(images/movie2.png);"></div>
-                        </a>
-
-                        <div class="card-info">
-                            <span class="card-category">DC Universe</span>
-                            <h3 class="card-title text-truncate">The Batman</h3>
-                            <div class="card-img-logo" style="background-image: url(images/Logo.png); margin-top: 6px;"></div>
-                            <h6 class="card-title">90/100</h6>
-                            <span class="card-by">
-                                <a href="#" class="card-genre">Action, Adventure, Superheroes</a>
-                            </span>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="swiper-slide">
-                    <article class="card">
-                        <div class="card-img"></div>
-                        <a href="#">
-                            <div class="card-img-hover" style="background-image: url(images/movie2.png);"></div>
-                        </a>
-
-                        <div class="card-info">
-                            <span class="card-category">DC Universe</span>
-                            <h3 class="card-title text-truncate">The Batman</h3>
-                            <div class="card-img-logo" style="background-image: url(images/Logo.png); margin-top: 6px;"></div>
-                            <h6 class="card-title">90/100</h6>
-                            <span class="card-by">
-                                <a href="#" class="card-genre">Action, Adventure, Superheroes</a>
-                            </span>
-                        </div>
-                    </article>
-                </div>
-
+                @endforeach
             </div>
             <div class="swiper-pagination2"></div>
         </div>
+
     </section>
 
     <!-- Rekomendasi Film dari User -->
@@ -301,9 +190,19 @@
             <div class="recommend">
                 <h1 class="display-5 fw-bold mb-4">Rekomendasikan film kesukaanmu agar orang lain tau</h1>
                 <div class="recom-box">
-                    <input class="recom" name="" type="recom-input" placeholder="Tulis Film Rekomendasimu">
-                    <i class='rc rc-box'></i>
-                    <button class="btn btn-primary btn-lg" type="button">Submit</button>
+                    <form action="/Home" method="post">
+                        @csrf
+                        <div class="form-floating">
+                            <input type="title" name="title" class="form-control @error('title') is-invalid @enderror" id="title" placeholder="title">
+                            <label for="title">Tulis Film Rekomendasimu</label>
+                            @error('title')
+                            <div class="invalid-feedback">
+                                {{ $message }}
+                            </div>
+                            @enderror
+                        </div>
+                        <input class="ml-2" type="submit" value="Submit">
+                    </form>
                 </div>
             </div>
         </div>

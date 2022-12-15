@@ -52,15 +52,17 @@ Route::get('/register', [RegisterController::class, 'index'])->middleware('guest
 Route::post('/register', [RegisterController::class, 'store']);
 
 Route::get('/Home', [HomeController::class, 'index'])->middleware('auth');
+Route::post('/Home', [HomeController::class, 'upvote']);
 
 
 
 
-Route::get('/Trending', function () {
+Route::get('/Trending', function (Movies $movie) {
     return view('Trending', [
-        "title" => "Trending"
+        "title" => "Trending",
+        'films' => $movie::orderBy('upvote', 'desc')->take(8)->get()
     ]);
-});
+})->middleware('auth');
 
 Route::get('/Kategori', [KategoriController::class, 'index']);
 Route::get('/Kategori/{kategori:slug}', function (kategori $kategori) {
@@ -69,26 +71,27 @@ Route::get('/Kategori/{kategori:slug}', function (kategori $kategori) {
         'films' => $kategori->movies,
         'kategori' =>  $kategori->name
     ]);
-});
+})->middleware('auth');
 
 Route::get('/Koleksi', function () {
     return view('Koleksi', [
         "title" => "Koleksi"
     ]);
-});
+})->middleware('auth');
 
 Route::get('/Profil', function () {
     return view('Profil', [
         "title" => "Profil"
     ]);
-});
+})->middleware('auth');
 
 Route::get('{movie:slug}', function (Movies $movie) {
     return view('1movies', [
         'title' => $movie->title,
         'films' => $movie
     ]);
-});
+})->middleware('auth');
+
 
 // Route::get('/{slug}', function () {
 //     $movies = Movies::where('slug', $slug)->first();
