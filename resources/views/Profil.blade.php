@@ -5,7 +5,7 @@
 <div class="container">
     <div class="profile">
         <img src="images/profile.png" class="profile-pic">
-        <h1> Adam Levine </h1>
+        <h1> {{Auth::user()->username}} </h1>
         <a href="#" class="follow-btn">Follow</a>
 
         <div class="asd">

@@ -16,7 +16,6 @@ return new class extends Migration
         Schema::create('movies', function (Blueprint $table) {
             $table->id();
             $table->foreignId('kategori_id');
-            $table->foreignId('review_id');
             $table->string('title');
             $table->string('slug')->unique();
             $table->text('body');

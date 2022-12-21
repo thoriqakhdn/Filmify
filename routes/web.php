@@ -3,11 +3,13 @@
 
 use App\Models\Movies;
 use App\Models\kategori;
+use App\Models\Review;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MoviesController;
 
+use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\RegisterController;
 
@@ -91,6 +93,8 @@ Route::get('{movie:slug}', function (Movies $movie) {
         'films' => $movie
     ]);
 })->middleware('auth');
+
+Route::post('review', [ReviewController::class, 'store']);
 
 
 // Route::get('/{slug}', function () {
