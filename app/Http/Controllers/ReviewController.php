@@ -16,7 +16,6 @@ class ReviewController extends Controller
     public function store(Request $request)
     {
         if (Auth::check()) {
-
             $validator = Validator::make($request->all(), [
                 'body' => 'required|string',
             ]);

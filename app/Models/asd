@@ -5,7 +5,11 @@ Movies::create([
 'slug' => 'spiderman-into-the-spiderverse',
 'rating' => 4.8,
 'upvote' => 0,
-'excerpt' => 'Digigit laba-laba radioaktif di kereta bawah tanah, remaja Brooklyn Miles Morales tiba-tiba mengembangkan kekuatan misterius yang mengubahnya menjadi satu-satunya Spider-Man.'
+'excerpt' => 'Digigit laba-laba radioaktif di kereta bawah tanah, remaja Brooklyn Miles Morales tiba-tiba mengembangkan kekuatan misterius yang mengubahnya menjadi satu-satunya Spider-Man.',
+'studio' => 'Marvel',
+'actor' => 'Shameik Moore, Hailee Steinfeld, Oscar Isaac',
+'rilis' => '12 Desember 2018',
+'photo' => 'https://cdn.shopify.com/s/files/1/0057/3728/3618/products/spider-man-into-the-spider-verse_bq6gjzke_500x749.jpg?v=1639768866'
 ]);
 
 Movies::create([
@@ -15,7 +19,11 @@ Movies::create([
 'slug' => 'black-adam',
 'rating' => 4.8,
 'upvote' => 0,
-'excerpt' => 'Berkisah tentang sosok antihero yang mendapatkan kekuatan dari dewa mesir bernama Adam. Ia datang untuk menciptakan keadilan di dunia saat ini.'
+'excerpt' => 'Berkisah tentang sosok antihero yang mendapatkan kekuatan dari dewa mesir bernama Adam. Ia datang untuk menciptakan keadilan di dunia saat ini.',
+'studio' => 'DC',
+'actor' => 'Dwayne Johnson, Henry Cavill',
+'rilis' => '19 Oktober 2022',
+'photo' => 'http://www.impawards.com/2022/posters/black_adam_ver4.jpg'
 ]);
 
 Movies::create([
@@ -25,7 +33,11 @@ Movies::create([
 'slug' => 'venom',
 'rating' => 4.8,
 'upvote' => 0,
-'excerpt' => 'Seorang jurnalis, Eddie Brock (Tom Hardy) ingin melakukan sebuah investasi kasus terhadap penemuan yang dipimpin oleh Dr. Carlton Drake (Riz Ahmed). Karena investigasinya, Eddie mengunjungi lab milik Dr. Calrlton Drake.'
+'excerpt' => 'Seorang jurnalis, Eddie Brock (Tom Hardy) ingin melakukan sebuah investasi kasus terhadap penemuan yang dipimpin oleh Dr. Carlton Drake (Riz Ahmed). Karena investigasinya, Eddie mengunjungi lab milik Dr. Calrlton Drake.',
+'studio' => 'Universal',
+'actor' => 'Tom Hardy, Riz Ahmed, Michelle Williams, Jenny Slate',
+'rilis' => '3 Oktober 2018',
+'photo' => 'http://www.impawards.com/2018/posters/venom_ver2.jpg'
 ]);
 
 Movies::create([
@@ -35,7 +47,11 @@ Movies::create([
 'slug' => 'mission-impossible-fallout',
 'rating' => 4.8,
 'upvote' => 0,
-'excerpt' => 'Ketika sebuah misi IMF berjalan di luar rencana, keselamatan dunia terancam. Ethan Hunt beraksi sendiri sesuai arahan awal, dan CIA mulai mempertanyakan loyalitas dan motifnya.'
+'excerpt' => 'Ketika sebuah misi IMF berjalan di luar rencana, keselamatan dunia terancam. Ethan Hunt beraksi sendiri sesuai arahan awal, dan CIA mulai mempertanyakan loyalitas dan motifnya.',
+'studio' => 'Paramount',
+'actor' => 'Tom Cruise, Rebecca Ferguson, Simon Pegg, Henry Cavill',
+'rilis' => '25 Juli 2018',
+'photo' => 'http://www.impawards.com/2018/posters/mission_impossible__fallout_ver3.jpg'
 ]);
 
 Movies::create([
@@ -45,7 +61,11 @@ Movies::create([
 'slug' => 'bumblebee',
 'rating' => 4.8,
 'upvote' => 0,
-'excerpt' => 'Dalam pelarian di tahun 1987, Bumblebee menemukan perlindungan di tempat rongsokan di sebuah kota kecil pinggir pantai California. '
+'excerpt' => 'Dalam pelarian di tahun 1987, Bumblebee menemukan perlindungan di tempat rongsokan di sebuah kota kecil pinggir pantai California. ',
+'studio' => 'Hasbro',
+'actor' => 'Hailee Steinfeld, John Cena, Jason Ian Drucker',
+'rilis' => '19 Desember 2018',
+'photo' => 'http://www.impawards.com/2018/posters/bumblebee_ver3.jpg'
 ]);
 
 Movies::create([
@@ -55,7 +75,11 @@ Movies::create([
 'slug' => 'wonder-woman',
 'rating' => 4.8,
 'upvote' => 0,
-'excerpt' => 'Putri Diana dari suku Amazon menyelamatkan pilot terdampar bernama Steve. Bersama sang pilot, Diana memulai petualangannya untuk menghentikan Ares.'
+'excerpt' => 'Putri Diana dari suku Amazon menyelamatkan pilot terdampar bernama Steve. Bersama sang pilot, Diana memulai petualangannya untuk menghentikan Ares.',
+'studio' => 'DC',
+'actor' => 'Gal Gadot, Chris Pine, Connie Nielsen, Robin Wright',
+'rilis' => '31 Mei 2017',
+'photo' => 'http://www.impawards.com/2017/posters/wonder_woman.jpg'
 ]);
 
 Movies::create([
@@ -65,7 +89,11 @@ Movies::create([
 'slug' => 'top-gun-maveric',
 'rating' => 4.8,
 'upvote' => 0,
-'excerpt' => 'Lebih dari 30 tahun mengabdi sebagai salah satu penerbang Angkatan Laut terbaik, Pete “Maverick” Mitchell berada dalam posisi dambaannya, melakukan aksi-aksi mendobrak sebagai pilot uji nan pemberani'
+'excerpt' => 'Lebih dari 30 tahun mengabdi sebagai salah satu penerbang Angkatan Laut terbaik, Pete “Maverick” Mitchell berada dalam posisi dambaannya, melakukan aksi-aksi mendobrak sebagai pilot uji nan pemberani',
+'studio' => 'Paramount',
+'actor' => 'Tom Cruise, Val Kilmer, Miles Teller, Jennifer Connelly',
+'rilis' => '27 Mei 2022',
+'photo' => 'http://www.impawards.com/2022/posters/top_gun_maverick_ver3.jpg'
 ]);
 
 Movies::create([
@@ -75,7 +103,11 @@ Movies::create([
 'slug' => 'red-notice',
 'rating' => 4.8,
 'upvote' => 0,
-'excerpt' => 'John Hartley (Dwayne Johnson) berusaha dengan segala cara untuk menangkap pencuri barang-barang seni bernama Sarah Black (Gal Gadot). Suatu ketika, ia menyamar agar bisa menjebak Sarah. Alih-alih, misi yang dijalankan Hartley itu gagal total.'
+'excerpt' => 'John Hartley (Dwayne Johnson) berusaha dengan segala cara untuk menangkap pencuri barang-barang seni bernama Sarah Black (Gal Gadot). Suatu ketika, ia menyamar agar bisa menjebak Sarah. Alih-alih, misi yang dijalankan Hartley itu gagal total.',
+'studio' => 'Flynn Picture',
+'actor' => 'Dwayne Johnson, Ryan Reynolds, Gal Gadot, Ritu Arya',
+'rilis' => '4 November 2021',
+'photo' => 'http://www.impawards.com/2021/posters/red_notice.jpg'
 ]);
 
 
@@ -88,7 +120,11 @@ Movies::create([
 'slug' => 'smile',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Setelah menyaksikan kejadian yang aneh yang melibatkan seorang pasien, Dr. Rose Cotter mulai mengalami kejadian menakutkan yang tidak bisa dia jelaskan.'
+'excerpt' => 'Setelah menyaksikan kejadian yang aneh yang melibatkan seorang pasien, Dr. Rose Cotter mulai mengalami kejadian menakutkan yang tidak bisa dia jelaskan.',
+'studio' => 'Paramount',
+'actor' => 'Sosie Bacon, Kyle Gallner',
+'rilis' => '28 September 2022',
+'photo' => 'http://www.impawards.com/2022/posters/smile.jpg'
 ]);
 
 Movies::create([
@@ -98,7 +134,11 @@ Movies::create([
 'slug' => 'get-out',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Chris, pria kulit hitam, mengunjungi orangtua kekasihnya kulit putihnya saat liburan akhir pekan.'
+'excerpt' => 'Chris, pria kulit hitam, mengunjungi orangtua kekasihnya kulit putihnya saat liburan akhir pekan.',
+'studio' => 'Blumhouse',
+'actor' => 'Daniel Kaluuya, Allison Williams, Bradley Whitford, Catherine Keener',
+'rilis' => '29 Maret 2017',
+'photo' => 'http://www.impawards.com/2017/posters/get_out_ver3.jpg'
 ]);
 
 Movies::create([
@@ -108,7 +148,11 @@ Movies::create([
 'slug' => 'alive',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'mengisahkan tentang Joon Woo (Yoo Ah In) yang merupakan seorang gamers. Saat kejadian penyebaran infeksi zombie terjadi, dirinya sedang berada di apartemen sendirian.'
+'excerpt' => 'mengisahkan tentang Joon Woo (Yoo Ah In) yang merupakan seorang gamers. Saat kejadian penyebaran infeksi zombie terjadi, dirinya sedang berada di apartemen sendirian.',
+'studio' => 'ZIP',
+'actor' => 'Yoo Ah in, Park Shin hye',
+'rilis' => '24 Juni 2020',
+'photo' => 'http://www.impawards.com/intl/south_korea/2020/posters/saraitda.jpg'
 ]);
 
 Movies::create([
@@ -118,7 +162,11 @@ Movies::create([
 'slug' => 'the-medium',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Saat tim dokumenter mengikuti Nim seorang dukun di daerah Isan - Thailand Utara mereka bertemu dengan keponakannya bernama Mink yang menunjukkan gejala aneh.'
+'excerpt' => 'Saat tim dokumenter mengikuti Nim seorang dukun di daerah Isan - Thailand Utara mereka bertemu dengan keponakannya bernama Mink yang menunjukkan gejala aneh.',
+'studio' => 'Ran Song',
+'actor' => 'Narilya Gulmongkolpech, Poon Mitpakdee',
+'rilis' => '20 Oktober 2021',
+'photo' => 'http://www.impawards.com/intl/south_korea/2021/posters/medium.jpg'
 ]);
 
 Movies::create([
@@ -128,7 +176,11 @@ Movies::create([
 'slug' => 'a-quiet-place',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Sebuah keluarga hidup dalam ketakutan. Mereka berusaha harus hidup dalam keheningan agar terhindar dari mahluk misterius.'
+'excerpt' => 'Sebuah keluarga hidup dalam ketakutan. Mereka berusaha harus hidup dalam keheningan agar terhindar dari mahluk misterius.',
+'studio' => 'Paramount',
+'actor' => 'John Krasinski, Scoot McNairy',
+'rilis' => '3 April 2018',
+'photo' => 'https://media-cache.cinematerial.com/p/500x/ks8fqc67/a-quiet-place-movie-poster.jpg?v=1521622626'
 ]);
 
 Movies::create([
@@ -138,7 +190,11 @@ Movies::create([
 'slug' => 'incantation',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Terinspirasi dari kejadian nyata di Taiwan pada tahun 2005, film Incantation bercerita tentang Li Ronan, seorang ibu yang berusaha melindungi anak perempuannya dari kutukan.'
+'excerpt' => 'Terinspirasi dari kejadian nyata di Taiwan pada tahun 2005, film Incantation bercerita tentang Li Ronan, seorang ibu yang berusaha melindungi anak perempuannya dari kutukan.',
+'studio' => 'Netflix',
+'actor' => 'Hsuan-yen Tsai, Kao Ying hsuan',
+'rilis' => '18 Maret 2022',
+'photo' => 'https://media-cache.cinematerial.com/p/500x/7n8af0pi/incantation-taiwanese-video-on-demand-movie-cover.jpg?v=1657903162'
 ]);
 
 Movies::create([
@@ -148,7 +204,11 @@ Movies::create([
 'slug' => 'the-invisible-man',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Cecilia Kass (Elisabeth Moss) tidak pernah percaya bahwa mantan kekasihnya yang tempramental bunuh diri dan meninggalkan warisan kepadanya.'
+'excerpt' => 'Cecilia Kass (Elisabeth Moss) tidak pernah percaya bahwa mantan kekasihnya yang tempramental bunuh diri dan meninggalkan warisan kepadanya.',
+'studio' => 'Lionsgate',
+'actor' => 'Oliver Jackson-Cohen, Elisabeth Moss, Storm Reid, Aldis Hodge',
+'rilis' => '6 Februari 2020',
+'photo' => 'http://www.impawards.com/2020/posters/invisible_man_ver2.jpg'
 ]);
 
 Movies::create([
@@ -158,7 +218,11 @@ Movies::create([
 'slug' => 'the-meg',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Lima tahun lalu, seorang ahli penyelam laut dan juga mantan Kapten Angkatan Laut bernama Jonas Taylor (Jason Statham) menghadapi marabahaya yang tidak terduga di relung Palung Mariana.'
+'excerpt' => 'Lima tahun lalu, seorang ahli penyelam laut dan juga mantan Kapten Angkatan Laut bernama Jonas Taylor (Jason Statham) menghadapi marabahaya yang tidak terduga di relung Palung Mariana.',
+'studio' => 'Universal',
+'actor' => 'Jason Statham, Robert Taylor',
+'rilis' => '9 April 2018',
+'photo' => 'http://www.impawards.com/2018/posters/meg.jpg'
 ]);
 
 Movies::create([
@@ -168,7 +232,11 @@ Movies::create([
 'slug' => 'the-sea-beast',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Pertarungan menegangkan yang dialami oleh seorang pemburu monster laut bernama Jacob Holland yang merupakan seorang kapten kapal yang gagah berani.'
+'excerpt' => 'Pertarungan menegangkan yang dialami oleh seorang pemburu monster laut bernama Jacob Holland yang merupakan seorang kapten kapal yang gagah berani.',
+'studio' => 'Netflix',
+'actor' => 'Karl Urban, Jared Harris',
+'rilis' => '7 Juni 2022',
+'photo' => 'http://www.impawards.com/2022/posters/sea_beast.jpg'
 ]);
 
 Movies::create([
@@ -178,7 +246,11 @@ Movies::create([
 'slug' => 'uncharted',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Nathan Drake direkrut oleh pemburu harta karun berpengalaman Victor Sullivan (Sully) untuk mengembalikan kekayaan yang dikumpulkan oleh Ferdinand Magellan'
+'excerpt' => 'Nathan Drake direkrut oleh pemburu harta karun berpengalaman Victor Sullivan (Sully) untuk mengembalikan kekayaan yang dikumpulkan oleh Ferdinand Magellan',
+'studio' => 'Sony',
+'actor' => 'Mark Wahlberg, Antonio Banderas, Sophia Ali',
+'rilis' => '16 Februari 2022',
+'photo' => 'http://www.impawards.com/2022/posters/uncharted.jpg'
 ]);
 
 Movies::create([
@@ -188,27 +260,39 @@ Movies::create([
 'slug' => 'pixels',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Sebuah tim khusus yang terdiri dari gamer arcade ditugaskan untuk melawan ras alien misterius yang ternyata telah menonton game klasik era 80-an.'
+'excerpt' => 'Sebuah tim khusus yang terdiri dari gamer arcade ditugaskan untuk melawan ras alien misterius yang ternyata telah menonton game klasik era 80-an.',
+'studio' => 'Sony',
+'actor' => 'Adam Sandler, Michelle Monaghan, Peter Dinklage, Josh Gad',
+'rilis' => '16 Desember 2014',
+'photo' => 'http://www.impawards.com/2015/posters/pixels.jpg'
 ]);
 
 Movies::create([
-'title' => 'Zathura',
-'kategori_id' => '3',
-'body' => 'Dua kakak beradik tak sengaja memulai petualangan magis berbahaya saat bermain sebuah papan permainan tua. Ketika terjebak di dalam dunia permainan, mereka harus mencari cara untuk kembali ke Bumi.',
-'slug' => 'zathura',
-'rating' => 4.2,
-'upvote' => 0,
-'excerpt' => 'Dua kakak beradik tak sengaja memulai petualangan magis berbahaya saat bermain sebuah papan permainan tua.'
+    'title' => 'Zathura',
+    'kategori_id' => '3',
+    'body' => 'Dua kakak beradik tak sengaja memulai petualangan magis berbahaya saat bermain sebuah papan permainan tua. Ketika terjebak di dalam dunia permainan, mereka harus mencari cara untuk kembali ke Bumi.',
+    'slug' => 'zathura',
+    'rating' => 4.2,
+    'upvote' => 0,
+    'excerpt' => 'Dua kakak beradik tak sengaja memulai petualangan magis berbahaya saat bermain sebuah papan permainan tua.',
+    'studio' => 'Universal',
+    'actor' => 'Jonah Bobo, Josh Hutcherson, Dax Shepard, Tim Robbins',
+    'rilis' => '8 Maret 2006',
+    'photo' => 'http://www.impawards.com/2005/posters/zathura_ver3.jpg'
 ]);
 
 Movies::create([
 'title' => 'Dune',
 'kategori_id' => '3',
-'body' => 'SPerjalanan pahlawan mitis dan emosional, Dune"menceritakan kisah Paul Atreides, seorang pemuda cerdas dan berbakat yang lahir dalam takdir besar di luar pemahamannya, yang harus melakukan perjalanan ke planet paling berbahaya di alam semesta untuk memastikan masa depannya.',
+'body' => 'Perjalanan pahlawan mitis dan emosional, Dune menceritakan kisah Paul Atreides, seorang pemuda cerdas dan berbakat yang lahir dalam takdir besar di luar pemahamannya, yang harus melakukan perjalanan ke planet paling berbahaya di alam semesta untuk memastikan masa depannya.',
 'slug' => 'dune',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Perjalanan pahlawan mitis dan emosional, Dune"menceritakan kisah Paul Atreides, seorang pemuda cerdas dan berbakat yang lahir dalam takdir besar di luar pemahamannya.'
+'excerpt' => 'Perjalanan pahlawan mitis dan emosional, Dune menceritakan kisah Paul Atreides, seorang pemuda cerdas dan berbakat yang lahir dalam takdir besar di luar pemahamannya.',
+'studio' => 'Universal',
+'actor' => 'Timothée Chalamet, Rebecca Ferguson, Oscar Isaac, Josh Brolin',
+'rilis' => '19 Juli 2021',
+'photo'=> 'http://www.impawards.com/2021/posters/dune.jpg'
 ]);
 
 Movies::create([
@@ -218,7 +302,11 @@ Movies::create([
 'slug' => 'maleficent',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Maleficent adalah sosok peri baik hati, yang dikhianati oleh kekasih hatinya, Stefan.'
+'excerpt' => 'Maleficent adalah sosok peri baik hati, yang dikhianati oleh kekasih hatinya, Stefan.',
+'studio' => 'Disney',
+'actor' => 'Angelina Jolie, Elle Fanning, Juno Temple, Sharlto Copley',
+'rilis'=> '10 Maret 2014',
+'photo'=> 'http://www.impawards.com/2014/posters/maleficent_ver2.jpg'
 ]);
 
 Movies::create([
@@ -228,7 +316,11 @@ Movies::create([
 'slug' => 'ready-player-one',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Ketika pencipta sebuah dunia virtual reality bernama OASIS meninggal, ia merilis video yang menantang semua pengguna OASIS untuk menemukan telur tersembunyi. '
+'excerpt' => 'Ketika pencipta sebuah dunia virtual reality bernama OASIS meninggal, ia merilis video yang menantang semua pengguna OASIS untuk menemukan telur tersembunyi. ',
+'studio' => 'Paramount',
+'actor' => 'Tye Sheridan, Olivia Cooke, Ben Mendelsohn, Simon Pegg',
+'rilis'=> '22 Juli 2017',
+'photo'=> 'http://www.impawards.com/2018/posters/ready_player_one.jpg'
 ]);
 
 Movies::create([
@@ -238,7 +330,11 @@ Movies::create([
 'slug' => 'inception',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Cobb, mata-mata ahli, mencuri informasi dari targetnya dengan masuk ke dalam mimpi mereka.'
+'excerpt' => 'Cobb, mata-mata ahli, mencuri informasi dari targetnya dengan masuk ke dalam mimpi mereka.',
+'studio' => 'Legendary',
+'actor' => 'Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy',
+'rilis'=> '15 Desember 2009',
+'photo'=> 'http://www.impawards.com/2010/posters/inception.jpg'
 ]);
 
 
@@ -249,7 +345,11 @@ Movies::create([
 'slug' => '21-jump-street',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Dua polisi baru, yang juga kebetulan dahulu adalah teman sekolah, ditugaskan untuk menyamar sebagai remaja untuk menyelidiki pengedar narkoba di sekolah tersebut.'
+'excerpt' => 'Dua polisi baru, yang juga kebetulan dahulu adalah teman sekolah, ditugaskan untuk menyamar sebagai remaja untuk menyelidiki pengedar narkoba di sekolah tersebut.',
+'studio' => 'Universal',
+'actor' => 'Channing Tatum, Jonah Hill, Brie Larson, Ellie Kemper',
+'rilis'=> '19 Desember 2011',
+'photo'=> 'http://www.impawards.com/2012/posters/twenty_one_jump_street.jpg'
 ]);
 
 Movies::create([
@@ -259,7 +359,11 @@ Movies::create([
 'slug' => 'my-stupid-boss',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Karena krisis kekurangan karyawan pabrik, akhirnya Bossman berniat untuk mencari karyawan pabrik baru di Vietnam. Berangkatlah Bossman, Diana, Mr.Kho, dan Adrian ke Vietnam.'
+'excerpt' => 'Karena krisis kekurangan karyawan pabrik, akhirnya Bossman berniat untuk mencari karyawan pabrik baru di Vietnam. Berangkatlah Bossman, Diana, Mr.Kho, dan Adrian ke Vietnam.',
+'studio' => 'Falcon',
+'actor' => 'Reza Rahardian, Bunga Citra Lestari', 
+'rilis'=> '19 Mei 2016',
+'photo'=> 'https://cdn.cinematerial.com/p/297x/hrp9bpas/my-stupid-boss-indonesian-movie-poster-md.jpg?v=1523693488'
 ]);
 
 Movies::create([
@@ -269,7 +373,12 @@ Movies::create([
 'slug' => 'johnny-english',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Inggris menghadapi ancaman terbesar, tak hanya karena MI5 jadi tak efektif setelah terjadinya sebuah serangan. Kini satu-satunya harapan terletak pada Johnny English.'
+'excerpt' => 'Inggris menghadapi ancaman terbesar, tak hanya karena MI5 jadi tak efektif setelah terjadinya sebuah serangan. Kini satu-satunya harapan terletak pada Johnny English.',
+'studio' => 'Universal',
+'actor' => 'Rowan Atkinson, John Malkovich, Natalie Imbruglia, Tasha de Vasconcelos',
+'rilis'=> '13 Januari 2003',
+'photo'=> 'http://www.impawards.com/2003/posters/johnny_english.jpg'
+
 ]);
 
 Movies::create([
@@ -279,7 +388,12 @@ Movies::create([
 'slug' => 'home-alone',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'kisah anak kecil yang tidak sengaja tertinggal oleh keluarganya ketika musim liburan tiba. Kejadian ini membuatnya harus tinggal di rumah sendirian.'
+'excerpt' => 'kisah anak kecil yang tidak sengaja tertinggal oleh keluarganya ketika musim liburan tiba. Kejadian ini membuatnya harus tinggal di rumah sendirian.',
+'studio' => 'Hughes',
+'actor' => 'Macaulay Culkin, Joe Pesci, Daniel Stern, John Heard',
+'rilis' => '29 September 2002',
+'photo'=> 'http://www.impawards.com/1990/posters/home_alone_ver1.jpg'
+
 ]);
 
 Movies::create([
@@ -289,17 +403,26 @@ Movies::create([
 'slug' => 'dont-look-up',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Bersama profesornya, Dr. Randall Mindy (Leonardo DiCaprio), Kate menemukan adanya sebuah komet yang mengorbit di dalam tata surya. Komet berukuran besar tersebut diprediksi akan bertabrakan langsung dengan bumi.'
+'excerpt' => 'Bersama profesornya, Dr. Randall Mindy (Leonardo DiCaprio), Kate menemukan adanya sebuah komet yang mengorbit di dalam tata surya. Komet berukuran besar tersebut diprediksi akan bertabrakan langsung dengan bumi.',
+'studio' => 'Netflix',
+'actor' => 'Leonardo Dicaprio, Jennifer Lawrence',
+'rilis'=> '24 Desember 2021',
+'photo'=> 'https://cdn.cinematerial.com/p/297x/narqzxrk/dont-look-up-movie-poster-md.jpg?v=1637080033'
 ]);
 
 Movies::create([
 'title' => 'Ted',
 'kategori_id' => '4',
-'body' => 'John Bennett mendapat keajaiban di hari Natal saat permintaannya terkabul: boneka beruang miliknya, Ted, akhirnya bisa hidup dan berbicara! John pun tumbuh besar dengan Ted, tapi semenjak dewasa, John merasa mulai menjauh dari sahabatnya itu. Dia pun harus memilih antara pacar barunya, Lori Collins, atau Ted.',
+'body' => 'John Bennett mendapat keajaiban di hari Natal saat permintaannya terkabul : boneka beruang miliknya, Ted, akhirnya bisa hidup dan berbicara! John pun tumbuh besar dengan Ted, tapi semenjak dewasa, John merasa mulai menjauh dari sahabatnya itu. Dia pun harus memilih antara pacar barunya, Lori Collins, atau Ted.',
 'slug' => 'ted',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'John Bennett mendapat keajaiban di hari Natal saat permintaannya terkabul: boneka beruang miliknya, Ted, akhirnya bisa hidup dan berbicara!'
+'excerpt' => 'John Bennett mendapat keajaiban di hari Natal saat permintaannya terkabul boneka beruang miliknya, Ted, akhirnya bisa hidup dan berbicara!',
+'studio' => 'Universal',
+'actor' => 'Mark Wahlberg, Joel McHale',
+'rilis'=> '29 Juni 2012',
+'photo'=> 'http://www.impawards.com/2015/posters/ted_two.jpg'
+
 ]);
 
 Movies::create([
@@ -309,7 +432,11 @@ Movies::create([
 'slug' => 'how-to-train-your-dragon',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Seorang Viking muda menentang tradisi ketika ia berteman dengan seekor naga bernama Toothless.'
+'excerpt' => 'Seorang Viking muda menentang tradisi ketika ia berteman dengan seekor naga bernama Toothless.',
+'studio' => 'Dreamworks',
+'actor' => 'Jay Baruchel, Gerard Butler, Craig Ferguson, America Ferrera',
+'rilis'=> '10 Desember 2009',
+'photo'=> 'http://www.impawards.com/2010/posters/how_to_train_your_dragon_ver3.jpg'
 ]);
 
 Movies::create([
@@ -319,7 +446,11 @@ Movies::create([
 'slug' => 'the-lego-movie',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Vitruvius mencoba untuk menyelamatkan senjata super \'Kragle\' dari si jahat Lord Business, tapi gagal.'
+'excerpt' => 'Vitruvius mencoba untuk menyelamatkan senjata super \'Kragle\' dari si jahat Lord Business, tapi gagal.',
+'studio' => 'Warner Bros',
+'actor' => 'Will Arnett, Elizabeth Banks, Craig Berry, Alison Brie',
+'rilis'=> '18 Juni 2013',
+'photo'=> 'http://www.impawards.com/2014/posters/lego_movie.jpg'
 ]);
 
 
@@ -330,7 +461,11 @@ Movies::create([
 'slug' => 'megamind',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Megamind, penjahat super, selalu mengalahkan dan membunuh musuh-musuhnya. Karena bosan, ia menciptakan superhero yang malah menjadi jahat.'
+'excerpt' => 'Megamind, penjahat super, selalu mengalahkan dan membunuh musuh-musuhnya. Karena bosan, ia menciptakan superhero yang malah menjadi jahat.',
+'studio' => 'DreamWorks',
+'actor' => 'Will Ferrell, Brad Pitt, Tina Fey, Jonah Hill',
+'rilis'=> '8 September 2010',
+'photo'=> 'http://www.impawards.com/2010/posters/megamind_ver3.jpg'
 ]);
 
 Movies::create([
@@ -340,7 +475,11 @@ Movies::create([
 'slug' => 'free-willy',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Seorang anak jalanan, Jesse berteman dengan Willy, seekor Paus Pembunuh'
+'excerpt' => 'Seorang anak jalanan, Jesse berteman dengan Willy, seekor Paus Pembunuh',
+'studio' => 'WarnerBros',
+'actor' => 'Jason James Richter, Lori Petty, August Schellenberg, Michael Madsen',
+'rilis'=> '29 Agustus 2002',
+'photo'=> 'http://www.impawards.com/1993/posters/free_willy.jpg'
 ]);
 
 Movies::create([
@@ -350,7 +489,11 @@ Movies::create([
 'slug' => 'sonic-the-hedgehog',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Mengisahkan petualangan Sonic saat ia belajar tentang kompleksitas kehidupan di bumi bersama manusia sahabat barunya.'
+'excerpt' => 'Mengisahkan petualangan Sonic saat ia belajar tentang kompleksitas kehidupan di bumi bersama manusia sahabat barunya.',
+'studio' => 'Paramount',
+'actor' => 'Ben Schwartz, James Marsden, Jim Carrey, Tika Sumpter',
+'rilis'=> '30 Apris 2019',
+'photo'=> 'https://media-cache.cinematerial.com/p/500x/c4mfszbd/sonic-the-hedgehog-movie-poster.jpg?v=1584305164'
 ]);
 
 Movies::create([
@@ -360,7 +503,11 @@ Movies::create([
 'slug' => 'cars',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Lightning McQueen, si mobil balap, harus belajar bertanggung jawab setelah membuat rusak banyak properti di Radiator Springs.'
+'excerpt' => 'Lightning McQueen, si mobil balap, harus belajar bertanggung jawab setelah membuat rusak banyak properti di Radiator Springs.',
+'studio' => 'Disney',
+'actor' => 'Owen Wilson, Paul Newman, Bonnie Hunt, Larry the Cable Guy',
+'rilis'=> '13 April 2006',
+'photo'=> 'http://www.impawards.com/2006/posters/cars_ver2.jpg'
 ]);
 
 Movies::create([
@@ -370,7 +517,11 @@ Movies::create([
 'slug' => 'cloudy-with-a-chance-of-meatballs',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Flint, penemu muda, sering dicap sebagai pencundang, sampai ia menciptakan sebuah mesin yang dapat membuat makanan jatuh dari langit.'
+'excerpt' => 'Flint, penemu muda, sering dicap sebagai pencundang, sampai ia menciptakan sebuah mesin yang dapat membuat makanan jatuh dari langit.',
+'studio' => 'Sony',
+'actor' => 'Bill Hader, Anna Faris, James Caan, Mr. T',
+'rilis'=> '27 Maret 2009',
+'photo'=> 'http://www.impawards.com/2009/posters/cloudy_with_a_chance_of_meatballs.jpg'
 ]);
 
 Movies::create([
@@ -380,7 +531,11 @@ Movies::create([
 'slug' => 'alvin-and-the-chipmunks',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Dave Seville bergabung dengan tiga tupai pintar bermusik yang mencoba menaklukan industri musik.'
+'excerpt' => 'Dave Seville bergabung dengan tiga tupai pintar bermusik yang mencoba menaklukan industri musik.',
+'studio' => 'Fox2000',
+'actor' => 'Jason Lee, David Cross, Cameron Richardson, Jane Lynch',
+'rilis'=> '9 Juli 2007',
+'photo'=> 'http://www.impawards.com/2007/posters/alvin_and_the_chipmunks.jpg'
 ]);
 
 Movies::create([
@@ -390,7 +545,11 @@ Movies::create([
 'slug' => 'christopher-robin',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Christopher Robin (Ewan McGregor) merupakan seorang anak kecil dari cerita Winnie the Pooh, saat ia telah tumbuh dewasa dan kehilangan semua imajinasinya tentang sekelompok boneka binatang yang ada di Hundred Acre Wood.'
+'excerpt' => 'Christopher Robin (Ewan McGregor) merupakan seorang anak kecil dari cerita Winnie the Pooh, saat ia telah tumbuh dewasa dan kehilangan semua imajinasinya tentang sekelompok boneka binatang yang ada di Hundred Acre Wood.',
+'studio' => 'Disney',
+'actor' => 'Ewan McGregor, Jim Cummings, Hayley Atwell',
+'rilis'=> '24 Mei 2018',
+'photo'=> 'http://www.impawards.com/2018/posters/christopher_robin_ver3.jpg'
 ]);
 
 Movies::create([
@@ -400,7 +559,11 @@ Movies::create([
 'slug' => 'happy-feet',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Kisah animasi penguin kaisar yang tak seperti lainnya. Mengomel, tak bisa bernyanyi, tapi ia bisa menari.'
+'excerpt' => 'Kisah animasi penguin kaisar yang tak seperti lainnya. Mengomel, tak bisa bernyanyi, tapi ia bisa menari.',
+'studio' => 'WarnerBros',
+'actor' => 'Lombardo Boyar, Robin Williams, Johnny A. Sanchez, Carlos Alazraqui',
+'rilis'=> '28 Juli 2006',
+'photo'=> 'http://www.impawards.com/2006/posters/happy_feet.jpg'
 ]);
 
 
@@ -411,7 +574,11 @@ Movies::create([
 'slug' => 'charlie-and-the-chocolate-factory',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Charlie, bocah dari keluarga miskin, memenangkan sebuah tiket emas bersama dengan empat anak lainnya.'
+'excerpt' => 'Charlie, bocah dari keluarga miskin, memenangkan sebuah tiket emas bersama dengan empat anak lainnya.',
+'studio' => 'WarnerBros',
+'actor' => 'Johnny Depp, Freddie Highmore, AnnaSophia Robb, Julia Winter',
+'rilis'=> '28 Januari 2005',
+'photo'=> 'http://www.impawards.com/2005/posters/charlie_and_the_chocolate_factory.jpg'
 ]);
 
 Movies::create([
@@ -421,7 +588,11 @@ Movies::create([
 'slug' => 'a-whisker-away',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Seorang gadis SMP bernama Sasaki Miyo (Hanae Mitsuki) yang merasa kurang bahagia dalam hidupnya.'
+'excerpt' => 'Seorang gadis SMP bernama Sasaki Miyo (Hanae Mitsuki) yang merasa kurang bahagia dalam hidupnya.',
+'studio'=> 'Netflix',
+'actor'    => 'Cristina Vee, Mirai Shida',
+'rilis'=> '28 Februari 2021',
+'photo'=> 'http://www.impawards.com/intl/japan/2020/posters/nakitai_watashi_wa_neko_o_kaburu.jpg'
 ]);
 
 Movies::create([
@@ -431,17 +602,25 @@ Movies::create([
 'slug' => 'jumanji' ,
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Dalam sebuah petualangan Jumanji yang baru, empat anak sekolah menengah menemukan sebuah konsol video game tua dan ditarik ke dalam setting hutan permainan, yang secara harfiah menjadi avatar dewasa yang mereka pilih. Apa yang mereka temukan adalah bahwa Anda tidak hanya bermain Jumanji - Anda harus bisa bertahan.'
+'excerpt' => 'Dalam sebuah petualangan Jumanji yang baru, empat anak sekolah menengah menemukan sebuah konsol video game tua dan ditarik ke dalam setting hutan permainan, yang secara harfiah menjadi avatar dewasa yang mereka pilih. Apa yang mereka temukan adalah bahwa Anda tidak hanya bermain Jumanji - Anda harus bisa bertahan.',
+'studio' => 'Columbia',
+'actor' => 'Robin Williams, Kirsten Dunst, Jonathan Hyde, Bonnie Hunt',
+'rilis'=> '4 Mei 2002',
+'photo'=> 'http://www.impawards.com/1995/posters/jumanji_ver2.jpg'
 ]);
 
 Movies::create([
-'title' => 'Kong: Skull Island',
+'title' => 'Kong : Skull Island',
 'kategori_id' => '6',
 'body' => 'Sebuah tim ilmuwan menjelajahi pulau yang belum dipetakan di Pasifik, dan tak sengaja memasuki wilayah sesosok kera raksasa. Kini, mereka harus berjuang untuk melarikan diri dari kejaran para monster.',
 'slug' => 'kong-skull-sland' ,
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Sebuah tim ilmuwan menjelajahi pulau yang belum dipetakan di Pasifik, dan tak sengaja memasuki wilayah sesosok kera raksasa.'
+'excerpt' => 'Sebuah tim ilmuwan menjelajahi pulau yang belum dipetakan di Pasifik, dan tak sengaja memasuki wilayah sesosok kera raksasa.',
+'studio' => 'Warner bros',
+'actor' => 'Tom Hiddleston, Samuel L. Jackson, John Goodman, Brie Larson',
+'rilis'=> '16 November 2016',
+'photo'=> 'http://www.impawards.com/2017/posters/kong_skull_island_ver2.jpg'
 ]);
 
 Movies::create([
@@ -451,7 +630,11 @@ Movies::create([
 'slug' => 'harry-potter-and-the-sorcerers-stone' ,
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'seorang anak laki-laki berusia sebelas tahun biasa melayani sebagai semacam budak untuk bibi dan pamannya yang mengetahui bahwa dia sebenarnya adalah seorang penyihir dan telah diundang untuk menghadiri Sekolah Sihir Hogwarts.'
+'excerpt' => 'seorang anak laki-laki berusia sebelas tahun biasa melayani sebagai semacam budak untuk bibi dan pamannya yang mengetahui bahwa dia sebenarnya adalah seorang penyihir dan telah diundang untuk menghadiri Sekolah Sihir Hogwarts.',
+'studio' => 'Warner bros',
+'actor' => 'Daniel Radcliffe, Rupert Grint, Emma Watson, Richard Harris',
+'rilis' => '18 Juli 2011',
+'photo' => 'http://www.impawards.com/2001/posters/harry_potter_and_the_sorcerers_stone_ver2.jpg'
 ]);
 
 Movies::create([
@@ -461,27 +644,39 @@ Movies::create([
 'slug' => 'fantastic-beasts-and-where-to-find-hem' ,
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Newt tiba di New York dengan membawa koper berisi makhluk-makhluk ajaib.'
+'excerpt' => 'Newt tiba di New York dengan membawa koper berisi makhluk-makhluk ajaib.',
+'studio' => 'Warner Bros',
+'actor' => 'Eddie Redmayne, Ezra Miller, Katherine Waterston, Alison Sudol',
+'rilis'=> '20 Juni 2016',
+'photo'=> 'http://www.impawards.com/2016/posters/fantastic_beasts_and_where_to_find_them_ver2.jpg'
 ]);
 
 Movies::create([
-'title' => 'The Hobbit 1: An Unexpected Journey',
+'title' => 'The Hobbit 1 : An Unexpected Journey',
 'kategori_id' => '6',
 'body' => 'Bilbo Baggins terlibat dalam petualangan menegangkan untuk menemukan kembali Kerajaan Erebor yang hilang. Mendapat tugas dari Gandalf, Bilbo bergabung dengan tiga belas kurcaci lain yang dipimpin oleh Thorin Oakenshield. Meskipun tujuan mereka adalah pergi ke arah Timur, namun mereka harus melewati terowongan berbahaya, di mana Bilbo bertemu dengan Gollum. Bilbo pun mendapati dirinya membawa sebuah cincin emas yang dapat mengubah takdir kehidupan di Middle Earth di luar kuasa Bilbo sendiri.',
 'slug' => 'the-hobbit-an-unexpected-journey' ,
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Bilbo Baggins terlibat dalam petualangan menegangkan untuk menemukan kembali Kerajaan Erebor yang hilang. Mendapat tugas dari Gandalf, Bilbo bergabung dengan tiga belas kurcaci lain yang dipimpin oleh Thorin Oakenshield.'
+'excerpt' => 'Bilbo Baggins terlibat dalam petualangan menegangkan untuk menemukan kembali Kerajaan Erebor yang hilang. Mendapat tugas dari Gandalf, Bilbo bergabung dengan tiga belas kurcaci lain yang dipimpin oleh Thorin Oakenshield.',
+'studio' => 'Warner Bros',
+'actor' => 'Ian McKellen, Martin Freeman, Richard Armitage, Andy Serkis',
+'rilis'=> '20 Desember 2011',
+'photo'=> 'http://www.impawards.com/2012/posters/hobbit_an_unexpected_journey.jpg'
 ]);
 
 Movies::create([
-'title' => 'The Lord of the Rings: The Fellowship of the Ring',
+'title'     => 'The Lord of the Rings : The Fellowship of the Ring',
 'kategori_id' => '6',
-'body' => 'Frodo, si hobbit muda, mewarisi sebuah cincin berkekuatan jahat milik Sauron, sang Penguasa Kegelapan. Kini, ia harus memulai perjalanan panjang penuh bahaya menuju Mount Doom demi menghancurkannya.',
-'slug' => 'the-lord-of-the-rings-he-fellowship-of-the-ring' ,
-'rating' => 4.2,
-'upvote' => 0,
-'excerpt' => 'Frodo, si hobbit muda, mewarisi sebuah cincin berkekuatan jahat milik Sauron, sang Penguasa Kegelapan.'
+'body'      => 'Frodo, si hobbit muda, mewarisi sebuah cincin berkekuatan jahat milik Sauron, sang Penguasa Kegelapan. Kini, ia harus memulai perjalanan panjang penuh bahaya menuju Mount Doom demi menghancurkannya.',
+'slug'      => 'the-lord-of-the-rings-he-fellowship-of-the-ring' ,
+'rating'    => 4.2,
+'upvote'    => 0,
+'excerpt'   => 'Frodo, si hobbit muda, mewarisi sebuah cincin berkekuatan jahat milik Sauron, sang Penguasa Kegelapan.',
+'studio'=> 'New Line Cinema',
+'actor'=> 'Elijah Wood, Ian McKellen, Viggo Mortensen, Liv Tyler',
+'rilis'=> '17 Juni 2008',
+'photo'=> 'http://www.impawards.com/2001/posters/lord_of_the_rings_the_fellowship_of_the_ring_ver1.jpg'
 ]);
 
 
@@ -492,7 +687,11 @@ Movies::create([
 'slug' => 'knives-out',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Harlan Thrombey (Christopher Plummer) adalah penulis novel misteri yang kaya raya. Di ulang tahunnya yang ke-85 ia tewas secara misterius. Keluarga Harlan yang datang berkumpul kini menjadi tersangka.'
+'excerpt' => 'Harlan Thrombey (Christopher Plummer) adalah penulis novel misteri yang kaya raya. Di ulang tahunnya yang ke-85 ia tewas secara misterius. Keluarga Harlan yang datang berkumpul kini menjadi tersangka.',
+'studio' => 'Lionsgate',
+'actor' => 'Daniel Craig, Chris Evans, Ana de Armas, Jamie Lee Curtis',
+'rilis'=> '16 September 2019',
+'photo'=> 'http://www.impawards.com/2019/posters/knives_out_ver4.jpg'
 ]);
 
 Movies::create([
@@ -502,7 +701,11 @@ Movies::create([
 'slug' => 'shutter-island',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Seorang perwira ditugaskan untuk menyelidiki hilangnya seorang pasien yang telah melarikan diri dari rumah sakit jiwa.'
+'excerpt' => 'Seorang perwira ditugaskan untuk menyelidiki hilangnya seorang pasien yang telah melarikan diri dari rumah sakit jiwa.',
+'studio' => 'Paramount',
+'actor' => 'Leonardo DiCaprio, Mark Ruffalo, Ben Kingsley, Emily Mortimer',
+'rilis'=> '22 Juli 2009',
+'photo'=> 'http://www.impawards.com/2010/posters/shutter_island.jpg'
 ]);
 
 Movies::create([
@@ -512,7 +715,11 @@ Movies::create([
 'slug' => 'tenet',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Dipersenjatai hanya dengan sepatah kata—Tenet—dan berjuang untuk kelangsungan dunia.'
+'excerpt' => 'Dipersenjatai hanya dengan sepatah kata—Tenet—dan berjuang untuk kelangsungan dunia.',
+'studio' => 'Warner Bros',
+'actor'=> 'Robert Pattinson, Elizabeth Debicki, Kenneth Branagh',
+'rilis'=> '19 Desember 2019',
+'photo'=> 'http://www.impawards.com/2020/posters/tenet.jpg'
 ]);
 
 Movies::create([
@@ -522,7 +729,11 @@ Movies::create([
 'slug' => 'gone-girl ',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Pada suatu pagi istrinya hilang secara misterius. Nick Dunne lapor polisi dan media segera meliput kasus ini secara besar-besaran'
+'excerpt' => 'Pada suatu pagi istrinya hilang secara misterius. Nick Dunne lapor polisi dan media segera meliput kasus ini secara besar-besaran',
+'studio' => '20th Century',
+'actor' => 'Ben Affleck, Rosamund Pike, Tyler Perry, Neil Patrick Harris',
+'rilis'=> '1 August 2014',
+'photo'=> 'http://www.impawards.com/2014/posters/gone_girl_ver2.jpg'
 ]);
 
 Movies::create([
@@ -532,7 +743,11 @@ Movies::create([
 'slug' => 'the-prestige',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Dua teman-pesulap berubah menjadi rival menyusul sebuah tragedi.'
+'excerpt' => 'Dua teman-pesulap berubah menjadi rival menyusul sebuah tragedi.',
+'studio' => 'Warner Bros',
+'actor' => 'Hugh Jackman, Christian Bale, Michael Caine, Scarlett Johansson',
+'rilis'=> '1 Septemmber 2006',
+'photo'=> 'http://www.impawards.com/2006/posters/prestige.jpg'
 ]);
 
 Movies::create([
@@ -542,7 +757,11 @@ Movies::create([
 'slug' => 'bird-box',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Bird Box bercerita tentang sebuah fenomena aneh di mana hampir semua orang mengalami halusinasi dan melakukan bunuh diri secara bersamaan.'
+'excerpt' => 'Bird Box bercerita tentang sebuah fenomena aneh di mana hampir semua orang mengalami halusinasi dan melakukan bunuh diri secara bersamaan.',
+'studio' => 'Netflix',
+'actor' => 'Sandra Bullock',
+'rilis'=> '24 October 2018',
+'photo'=> 'http://www.impawards.com/tv/posters/bird_box.jpg'
 ]);
 
 Movies::create([
@@ -552,7 +771,11 @@ Movies::create([
 'slug' => 'the-invitation',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Evie diundang oleh sepupunya untuk datang ke Inggris menghadiri pesta pernikahan.'
+'excerpt' => 'Evie diundang oleh sepupunya untuk datang ke Inggris menghadiri pesta pernikahan.',
+'studio' => 'Sony',
+'actor' => 'Thomas Doherty, Alana Boden',
+'rilis'=> '28 Juni 2022',
+'photo'=> 'http://www.impawards.com/2022/posters/invitation.jpg'
 ]);
 
 Movies::create([
@@ -562,7 +785,11 @@ Movies::create([
 'slug' => 'identity',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Bercerita tentang sepuluh orang asing yang terdampar di sebuah hotel di daerah Nevada.'
+'excerpt' => 'Bercerita tentang sepuluh orang asing yang terdampar di sebuah hotel di daerah Nevada.',
+'studio' => 'Sony',
+'actor' => 'John Cusack, Ray Liotta, Amanda Peet, John Hawkes',
+'rilis'=> '8 Januari 2006',
+'photo'=> 'http://www.impawards.com/2003/posters/identity.jpg'
 ]);
 
 Movies::create([
@@ -572,7 +799,11 @@ Movies::create([
 'slug' => 'pacific-rim',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Pemerintah menyebut, Jaegers, pasukan robot yang bertepur melawan Kaijus, tak efektif.'
+'excerpt' => 'Pemerintah menyebut, Jaegers, pasukan robot yang bertepur melawan Kaijus, tak efektif.',
+'studio' => 'Warner Bros',
+'actor' => 'Idris Elba, Charlie Hunnam, Charlie Day, Ron Perlman',
+'rilis'=> '7 Juli 2012',
+'photo'=> 'http://www.impawards.com/2013/posters/pacific_rim.jpg'
 ]);
 
 Movies::create([
@@ -582,7 +813,11 @@ Movies::create([
 'slug' => 'gemini-man',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Henry Brogan (Will Smith) adalah pembunuh bayaran terbaik yang pernah ada.'
+'excerpt' => 'Henry Brogan (Will Smith) adalah pembunuh bayaran terbaik yang pernah ada.',
+'studio' => 'Paramount',
+'actor' => 'Will Smith, Mary Elizabeth Winstead, Clive Owen, Benedict Wong',
+'rilis'=> '23 April 2019',
+'photo'=> 'http://www.impawards.com/2019/posters/gemini_man.jpg'
 ]);
 
 Movies::create([
@@ -592,7 +827,11 @@ Movies::create([
 'slug' => 'the-tomorrow-war',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Bercerita tentang sekelompok penjelajah waktu yang datang dari tahun 2051 untuk menyampaikan pesan penting.'
+'excerpt' => 'Bercerita tentang sekelompok penjelajah waktu yang datang dari tahun 2051 untuk menyampaikan pesan penting.',
+'studio' => 'Amazon',
+'actor' => 'Chris Pratt, Yvonne Strahovski, J.K. Simmons, Betty Gilpin',
+'rilis'=> '26 May 2021',
+'photo'=> 'http://www.impawards.com/2021/posters/tomorrow_war.jpg'
 ]);
 
 Movies::create([
@@ -602,7 +841,11 @@ Movies::create([
 'slug' => 'arrival',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Louise Banks, seorang ahli linguistik, bersama timnya, harus menafsirkan bahasa alien yang datang ke Bumi.'
+'excerpt' => 'Louise Banks, seorang ahli linguistik, bersama timnya, harus menafsirkan bahasa alien yang datang ke Bumi.',
+'studio' => 'Paramount',
+'actor' => 'Amy Adams, Jeremy Renner, Forest Whitaker, Michael Stuhlbarg',
+'rilis'=> '16 Agustus 2016',
+'photo'=> 'http://www.impawards.com/2016/posters/arrival.jpg'
 ]);
 
 Movies::create([
@@ -612,7 +855,12 @@ Movies::create([
 'slug' => 'enders-game',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Ender Wiggin, ahli strategi remaja, direkrut oleh Internasional Military untuk memimpin perang melawan Formics.'
+'excerpt' => 'Ender Wiggin, ahli strategi remaja, direkrut oleh Internasional Military untuk memimpin perang melawan Formics.',
+'studio' => 'Lionsgate',
+'actor' => 'Asa Butterfield, Harrison Ford, Hailee Steinfeld, Abigail Breslin',
+'rilis'=> '25 Maret 2013',
+'photo'=> 'http://www.impawards.com/2013/posters/enders_game.jpg'
+
 ]);
 
 Movies::create([
@@ -622,7 +870,11 @@ Movies::create([
 'slug' => 'transformers',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Pertempuran kuno antara dua klan Cybertronian, para Autobots heroik melawan Decepticons jahat meletus di Bumi.'
+'excerpt' => 'Pertempuran kuno antara dua klan Cybertronian, para Autobots heroik melawan Decepticons jahat meletus di Bumi.',
+'studio' => 'Paramount',
+'actor' => 'Shia LaBeouf, Josh Duhamel, Megan Fox, Rachael Taylor',
+'rilis'=> '12 April 2007',
+'photo'=> 'http://www.impawards.com/2007/posters/transformers_ver4.jpg'
 ]);
 
 Movies::create([
@@ -632,7 +884,12 @@ Movies::create([
 'slug' => 'interstellar ',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Sebuah tim penjelajah antar galaksi harus melewati lubang cacing dan terjebak di dimensi waktu ruang angkasa.'
+'excerpt' => 'Sebuah tim penjelajah antar galaksi harus melewati lubang cacing dan terjebak di dimensi waktu ruang angkasa.',
+'studio' => 'Paramount',
+'actor' => 'Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine',
+'rilis' => '16 September 2014',
+'photo'=> 'http://www.impawards.com/2014/posters/interstellar_ver2.jpg'
+
 ]);
 
 Movies::create([
@@ -642,7 +899,11 @@ Movies::create([
 'slug' => 'edge-of-tomorrow',
 'rating' => 4.2,
 'upvote' => 0,
-'excerpt' => 'Dengan bantuan prajurit Rita Vrataski, Mayor William Cage harus menyelamatkan Planet Bumi dari makhluk asing.'
+'excerpt' => 'Dengan bantuan prajurit Rita Vrataski, Mayor William Cage harus menyelamatkan Planet Bumi dari makhluk asing.',
+'studio'=> 'Warner Bros',
+'actor' => 'Tom Cruise, Emily Blunt, Brendan Gleeson, Bill Paxton',
+'rilis' => '11 Desember 2013',
+'photo'=> 'http://www.impawards.com/2014/posters/edge_of_tomorrow_ver4.jpg'
 ]);
 
 

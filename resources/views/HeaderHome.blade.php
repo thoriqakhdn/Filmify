@@ -96,9 +96,9 @@
                             <li class="nav-item">
                                 <a class="nav-link {{ ($title === "Kategori") ? 'active' : ''}}" href="{{url('/Kategori')}}">Kategori</a>
                             </li>
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a class="nav-link {{ ($title === "Koleksi") ? 'active' : ''}}" href="{{url('/Koleksi')}}">Koleksi</a>
-                            </li>
+                            </li> --}}
                         </ul>
 
                     </div>

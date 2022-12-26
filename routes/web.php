@@ -1,15 +1,18 @@
 <?php
 
-
+use App\Models\User;
 use App\Models\Movies;
-use App\Models\kategori;
 use App\Models\Review;
+use App\Models\kategori;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\DashboardMovies;
 use App\Http\Controllers\LoginController;
-use App\Http\Controllers\MoviesController;
 
+use App\Http\Controllers\MoviesController;
 use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\DashboardKategori;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\RegisterController;
 
@@ -56,8 +59,12 @@ Route::post('/register', [RegisterController::class, 'store']);
 Route::get('/Home', [HomeController::class, 'index'])->middleware('auth');
 Route::post('/Home', [HomeController::class, 'upvote']);
 
+Route::get('/Dashboard', function () {
+    return view('dashboard.index');
+})->middleware('auth');
 
-
+Route::resource('/Dashboard/kategori', DashboardKategori::class)->middleware('auth');
+Route::resource('/Dashboard/movie', DashboardMovies::class)->middleware('auth');
 
 Route::get('/Trending', function (Movies $movie) {
     return view('Trending', [
@@ -83,14 +90,16 @@ Route::get('/Koleksi', function () {
 
 Route::get('/Profil', function () {
     return view('Profil', [
-        "title" => "Profil"
+        "title" => "Profil",
+        "user" => Auth::user()
     ]);
 })->middleware('auth');
 
 Route::get('{movie:slug}', function (Movies $movie) {
     return view('1movies', [
         'title' => $movie->title,
-        'films' => $movie
+        'films' => $movie,
+        'kategori' => kategori::where('id', $movie->kategori_id)->first()
     ]);
 })->middleware('auth');
 

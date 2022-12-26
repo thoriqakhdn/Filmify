@@ -103,7 +103,8 @@
                 <main class="form-signin">
                     <form action="/login" method="post">
                         @csrf
-                        <img class="img mb-5" src="/images/Logo.png" alt="" width="80" height="60">Filmify
+                        <a href="/">
+                            <img class="img mb-5" src="/images/Logo.png" alt="" width="80" height="60"></a>Filmify
                         <h1 class="h3 ml-5 mb-4 fw-normal">Masuk</h1>
                         <p>Belum punya akun Filmify? <a style="float:right" href='/register'>Daftar akun baru</a>
                         </p>
@@ -119,12 +120,6 @@
                                     <label for="paswsword" required>Password</label>
                                 </div>
 
-                                <div class="checkbox mb-3">
-                                    <label>
-                                        <input class="ml-2" type="checkbox" value="remember-me"> Remember me
-                                    </label>
-                                    <a style="float:right" href='#'>Lupa password?</a>
-                                </div>
                                 <input class="ml-2 mb-5" type="submit" value="Masuk">
                                 <p class=" mb-3 text-muted">&copy; © 2022 Filmify. All rights reserved. Filmify is a
                                     registered

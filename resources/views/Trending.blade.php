@@ -11,7 +11,7 @@
         <article class="card">
             <div class="card-img"></div>
             <a href="{{ $film-> slug }}">
-                <div class="card-img-hover" style="background-image: url(images/movie1.png);"></div>
+                <div class="card-img-hover" style="background-image: url({{ $film->photo }});"></div>
             </a>
             <div class="card-info">
                 {{-- <span class="card-category text-truncate">{{ $film-> studios }}</span> --}}

@@ -95,7 +95,8 @@
         <main class="form-signin">
             <form action="/register" method="post">
                 @csrf
-                <img class="img mb-5" src="/images/Logo.png" alt="" width="80" height="60">Filmify
+                <a href="/">
+                    <img class="img mb-5" src="/images/Logo.png" alt="" width="80" height="60"></a>Filmify
                 <h1 class="h3 ml-5 mb-3 fw-normal">Daftar</h1>
                 <p>Sudah punya akun Filmify? <a style="float:right" href='/login'>Masuk</a>
                 </p>
@@ -137,5 +138,4 @@
     </section>
 </body>
 <script src="{{asset('front/js/bootstrap.bundle.min.js')}}" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
 </html>

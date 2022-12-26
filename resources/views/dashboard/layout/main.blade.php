@@ -90,19 +90,19 @@
                 <div class="position-sticky pt-3 sidebar-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('dashboard') ? 'active':''}}" aria-current="page" href="/Dashboard">
+                            <a class="nav-link {{ Request::is('Dashboard*') ? 'active' : '' }}" aria-current="page" href="/Dashboard">
                                 <span data-feather="home" class="align-text-bottom"></span>
                                 Dashboard
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('dashboard') ? 'active':''}}" href="/Dashboard/kategori">
+                            <a class="nav-link {{ Request::is('Dashboard/kategori*') ? 'active':''}}" href="/Dashboard/kategori">
                                 <span data-feather="filter" class="align-text-bottom"></span>
                                 Kategori
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('dashboard') ? 'active':''}}" href="/Dashboard/movie">
+                            <a class="nav-link {{ Request::is('Dashboard/movies*') ? 'active':''}}" href="/Dashboard/movie">
                                 <span data-feather="film" class="align-text-bottom"></span>
                                 Movies
                             </a>
@@ -110,9 +110,7 @@
                 </div>
             </nav>
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h1 class="h2">Dashboard</h1>
-                </div>
+                @yield('container')
             </main>
         </div>
     </div>

@@ -22,7 +22,11 @@
 
 
 
+<a href="/Kategori">
+    <div class="col text-center">
+        <button type="submit" class="btn btn-primary btn-lg px-4 me-md-2 mt-4 mx-2">Kembali ke kategori</button>
+</a>
+</div>
 
-<a href="/Kategori">Kembali ke kategori</a>
 @include('Footer')
 @endsection

@@ -10,7 +10,7 @@ class HomeController extends Controller
 {
     public function index(Movies $movie)
     {
-        return view('dashboard.index', [
+        return view('Home', [
             "title" => "Home",
             'films' => $movie::orderBy('updated_at', 'desc')->take(8)->get(),
             'films2' => $movie::orderBy('reviews', 'desc')->take(8)->get()
