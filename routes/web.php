@@ -61,10 +61,10 @@ Route::post('/Home', [HomeController::class, 'upvote']);
 
 Route::get('/Dashboard', function () {
     return view('dashboard.index');
-})->middleware('auth');
+})->middleware('admin');
 
-Route::resource('/Dashboard/kategori', DashboardKategori::class)->middleware('auth');
-Route::resource('/Dashboard/movie', DashboardMovies::class)->middleware('auth');
+Route::resource('/Dashboard/kategori', DashboardKategori::class)->middleware('admin');
+Route::resource('/Dashboard/movie', DashboardMovies::class)->middleware('admin');
 
 Route::get('/Trending', function (Movies $movie) {
     return view('Trending', [
