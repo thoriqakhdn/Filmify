@@ -201,9 +201,10 @@
                             </div>
                             @enderror
                         </div>
-                        <input class="ml-2" type="submit" value="Submit">
                     </form>
+                    <input class="btn btn-secondary" type="submit" value="Submit">
                 </div>
+
             </div>
         </div>
     </section>
