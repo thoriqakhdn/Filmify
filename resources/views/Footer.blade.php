@@ -108,7 +108,6 @@
                 <li class="nav-item mb-2"><a href="/Home" class="nav-link p-0 text-muted">Home</a></li>
                 <li class="nav-item mb-2"><a href="/Trending" class="nav-link p-0 text-muted">Trending</a></li>
                 <li class="nav-item mb-2"><a href="/Kategori" class="nav-link p-0 text-muted">Kategori</a></li>
-                <li class="nav-item mb-2"><a href="/Koleksi" class="nav-link p-0 text-muted">Koleksi</a></li>
             </ul>
         </div>
 
