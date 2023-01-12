@@ -83,21 +83,21 @@
                     <img src="images/Movies/Red.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>One Piece</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <p> </p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/Movies/conjuring.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5>The conjuring</h5>
+                        <p> </p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/Movies/sangchi.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5>Shang-chi</h5>
+                        <p> </p>
                     </div>
                 </div>
             </div>
@@ -201,8 +201,8 @@
                             </div>
                             @enderror
                         </div>
+                        <input class="btn btn-secondary" type="submit" value="Submit">
                     </form>
-                    <input class="btn btn-secondary" type="submit" value="Submit">
                 </div>
 
             </div>

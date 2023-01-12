@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Movies;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -22,6 +23,13 @@ class HomeController extends Controller
         if (strlen($request) >= 2) {
             Movies::where('title', 'LIKE', '%' . $request['title'] . '%')->increment('upvote');
         }
-        return redirect('/Home')->with('success', 'review Berhasil!');
+        $vote = $request->validate([
+            'title' => 'required|min:2|max:255'
+        ]);
+
+        if (Auth::attempt($vote)) {
+            return redirect('/Home')->with('success', 'upvote Berhasil!');
+        }
+        return redirect('/Home')->with('fail', 'upvote Gagal!');
     }
 }
