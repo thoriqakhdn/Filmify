@@ -70,6 +70,12 @@
         {{session('success')}}
     </div>
     @endif
+    @if(session()->has('fail'))
+    <div class="alert alert-danger alert-dismissible fade show d-flex align-item-center w-25" role="alert">
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        {{session('fail')}}
+    </div>
+    @endif
     <!-- Carousel -->
     <section class="carousel">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">

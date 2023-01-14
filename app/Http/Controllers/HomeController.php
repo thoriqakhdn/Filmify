@@ -23,8 +23,7 @@ class HomeController extends Controller
         $vote = $request->validate([
             'title' => 'required|min:2|max:255'
         ]);
-
-        if ($vote) {
+        if ($vote && Movies::where('title', 'LIKE', '%' . $request['title'] . '%')->exists()) {
             Movies::where('title', 'LIKE', '%' . $request['title'] . '%')->increment('upvote');
             return redirect('/Home')->with('success', 'upvote Berhasil!');
         }
