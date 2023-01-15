@@ -96,6 +96,9 @@ class DashboardKategori extends Controller
     public function destroy(kategori $kategori)
     {
         //
+        $kat = kategori::find($kategori->id);
+
+        $kat->movies()->delete();
         kategori::destroy($kategori->id);
         return redirect('/Dashboard/kategori')->with('success', 'Kategori berhasil dihapus');
     }
