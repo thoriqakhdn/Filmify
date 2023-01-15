@@ -25,8 +25,8 @@ class HomeController extends Controller
         ]);
         if ($vote && Movies::where('title', 'LIKE', '%' . $request['title'] . '%')->exists()) {
             Movies::where('title', 'LIKE', '%' . $request['title'] . '%')->increment('upvote');
-            return redirect('/Home')->with('success', 'upvote Berhasil!');
+            return redirect('/Home')->with('success', 'Rekomendasi Berhasil!');
         }
-        return redirect('/Home')->with('fail', 'upvote Gagal!');
+        return redirect('/Home')->with('fail', 'Rekomendasi Gagal!');
     }
 }
